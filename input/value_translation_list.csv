@@ -1,0 +1,30 @@
+original_name;subtype;type_of_generation
+Wind Land;wind_onshore;wind
+Wind See;wind_offshore;wind
+Klärgas;gas_sewage;gas
+Grubengas;gas_mine;gas
+Freifläche PV;solar_ground_mounted;solar
+Deponiegas;gas_landfill;gas
+Biomasse;biomass;biomass
+Wasserkraft;hydro;hydro
+Gas;gas;gas
+Erdwärme;geothermal;geothermal
+Wasserkraft;hydro;hydro
+Windkraft;wind_onshore;wind
+Biomasse;biomass;biomass
+Solarstrom;solar_roof_mounted;solar
+Onshore;wind_onshore;wind
+Offshore;wind_offshore;wind
+Holz;wood;biomass
+Gebäude;solar_roof_mounted;solar
+Freifläche;solar_ground_mounted;solar
+Biotreibstoffe;biofuel;biomass
+Biogas (Trockenfermentation);biogas_dry_fermentation;biomass
+Altholz;waste_wood;biomass
+Biogas (Gasnetzentnahme);biogas_from_grid;biomass
+Biogas;biogas;biomass
+Geothermie;geothermal;geothermal
+Windenergie Offshore;wind_offshore;wind
+Solar;solar_roof_mounted;solar
+Windenergie;wind_onshore;wind
+Windenergie an Land;wind_onshore;wind
