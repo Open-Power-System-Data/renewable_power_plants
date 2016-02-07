@@ -1,4 +1,4 @@
-original_name;subtype;type_of_generation
+original_name;generation_subtype;generation_type
 Wind Land;wind_onshore;wind
 Wind See;wind_offshore;wind
 Klärgas;gas_sewage;gas

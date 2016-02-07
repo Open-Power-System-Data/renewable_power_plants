@@ -1,163 +1,163 @@
-original_name;column_naming;translation;source
-Inbetriebnahmedatum;start_up_date;Start-up date;energymap
-GeoDBID;gid ;Geometry id;energymap
-PLZ;postcode;Post code or ZIP;energymap
-Ort;city;Name of city, village, municipality;energymap
-Strasse;street_address;Street name and house number;energymap
-Anlagenschluessel;eeg_id;German EEG  renumeration  identification number;energymap
-Anlagentyp;type_of_generation;Type of generation;energymap
-Anlagenuntertyp;subtype;Sub type of generation;energymap
-Nennleistung(kWp_el);rated_power;Rated electric power in kW ;energymap
-Einspeisespannungsebene;voltage_level;Type of grid connection, voltage level;energymap
-DSO-EIC;dso_eic;Energy Identification Code (EIC) for distribution system operator (DSO) accounting area;energymap
-DSO;dso;Name of distribution system operator;energymap
-TSO-EIC;tso_eic;Energy Identification Code (EIC) for transmission system operator (TSO);energymap
-TSO;tso;Name of TSO;energymap
-kWh(2013);kwh2013;Annual power production of the year 2013;energymap
-kWh(average);kwh_avg;Average power production;energymap
-kWh/kW;kwh_per_kw;Own calculation of EnergyMap of full-load hours;energymap
-EEG-Verguetungsschluessel;renumeration_code;German EEG renumeration code;energymap
-Gemeindeschluessel;municipality_id;Municipality code of Germany;energymap
-GPS-Lat;gps_lat;GPS Latetude coordinats;energymap
-GPS-Lon;gps_lon;GPS Longetude coordinats;energymap
-GPS-Genauigkeit(dm);gps_accuracy;GPS accuracy of coordinats;energymap
-Validierung;validation;Data validation;energymap
-Meldedatum;notification_date ;notification date;bnetza
-Meldegrund;notification_reason;Reason  of notification;bnetza
-Anlagennummer;power_plant_id;Power plant identification number;bnetza
-1.8 EEG-Anlagenschlüssel;eeg_id;German EEG renumeration identification number;bnetza
-3.1 Genehmigungs-datum;approval_date;Approval date;bnetza
-3.2 Genehmigungs-behörde;approval_authority;Approval authority;bnetza
-3.3 Genehmigungs-Aktenzeichen;file_number;Approval file number;bnetza
-3.4 Geplantes Inbetriebnahme-datum;planned_start_up_date;Planned start-up date;bnetza
-3.5 Errichtungs-frist;date_of_deadline;Construction deadline;bnetza
-4.1 Energieträger;type_of_generation;Type of generation;bnetza
-4.2 Installierte Leistung [kW];rated_power;Rated electric power in kW ;bnetza
-4.2.1 Inst. Leistung vor Leistungs-änderung (ohne Flexprämie);4_2_1;;bnetza
-4.2.2 Inst. Leistung nach Leistungs-änderung (ohne Flexprämie);4_2_2;;bnetza
-4.3 Tatsächliche Inbetrieb-nahme;start_up_date;Start-up date;bnetza
-4.4 Datum Leistungs-änderung;4_4;;bnetza
-4.5 Stilllegungs-datum;decommissioning;Date of decommissioning;bnetza
-4.6 Name der Anlage;4_6;;bnetza
-4.7 Strasse bzw. Flurstück;street_address;Street name and house number;bnetza
-4.8 Haus-nummer;house_number;House number;bnetza
-4.9 Postleit-zahl;postcode;Post code or ZIP;bnetza
-4.10 Ort bzw. Gemarkung;city;Name of city, village, municipality;bnetza
-Gemeinde-schlüssel;municipality_id;Municipality code of Germany;bnetza
-4.11 Bundesland;federal_state;Name of federal state;bnetza
-UTM-Zonenwert;utm_zone;;bnetza
-UTM-East;utm_east;;bnetza
-UTM-North;utm_north;;bnetza
-4.13 Zugehörigkeit Anlagenpark;4_13;;bnetza
-4.13.1  Name des Anlagenparks;4_13_1;;bnetza
-4.14 Spannungsebene;voltage_level;;bnetza
-4.15 Netzanschlusspunkt;4_15;;bnetza
-Zählpunktbezeichnung;metering_point;Name of metering point;bnetza
-4.16 Name des Netzbetreibers;dso;;bnetza
-4.17 Fernsteuerbarkeit durch:;4_17;;bnetza
-4.18 Gemeinsame techn. Einrichtung;4_18;;bnetza
-4.19 Inanspruchnahme finanzielle Förderung;4_19;;bnetza
-4.20 Eigenverbrauch geplant;4_20;;bnetza
-5.1 Eingesetzte Biomasse;5_1;;bnetza
-5.2 Ausschließlich Biomasse;5_2;;bnetza
-5.3 Flexprämie nach § 54 EEG ;5_3;;bnetza
-5.4 Erstmalige Inanspruchnahme Flexprämie;5_4;;bnetza
-5.4.1 Leistungserhöhung Flexprämie;5_4_1;;bnetza
-5.4.2 Datum Leistungserhöhung Flexprämie;5_4_2;;bnetza
-5.4.3 Umfang der Leistungserhöhung [kW];5_4_3;;bnetza
-5.5 Erstmalig ausschließlich Biomethan;5_5;;bnetza
-5.6 (5.8 in alter Version) Zustimmung gesonderte Veröffentlichung Biomethanstilllegung;5_6;;bnetza
-6.1 KWK-Anlage;6_1;;bnetza
-6.2 Thermische Leistung [kW];thermal_capacity;thermal rating / output / capacity in kW;bnetza
-6.3 Andere Energieträger vor 01.08.2014;6_3;;bnetza
-6.4 Eingesetzte andere Energieträger vor 01.08.2014;6_4;;bnetza
-6.5 Erstmalige Stromerzeugung;6_5;;bnetza
-7.1 Windanlagenhersteller;manufacturer;Wind turbine manufacturer;bnetza
-7.2 Anlagentyp;model;Wind turbine model;bnetza
-7.3 Nabenhöhe [m];hub_hight;Hub height  in meter;bnetza
-7.4 Rotordurch-messer [m];rotor_diameter;Rotor diameter in meter;bnetza
-7.5 Repowering;repowering;;bnetza
-7.6 Stilllegung gemeldet;7_6;;bnetza
-7.7.1 Mittlere Windge-schwindigkeit [m/s];7_7_1;;bnetza
-7.7.2 Formparameter Weibull-Verteilung;7_7_2;;bnetza
-7.7.3 Skalenparameter Weibull-Verteilung;7_7_3;;bnetza
-7.7.4 Ertrags-einschätzung [kWh];7_7_4;;bnetza
-7.7.5 Ertragseinschätzung/Referenzertrag [%];7_7_5;;bnetza
-7.8.1 Seelage;7_8_1;;bnetza
-7.8.2 Wassertiefe [m];7_8_2;;bnetza
-7.8.3 Küstenentfernung [km];7_8_3;;bnetza
-8.1 Ertüchtigung Wasserkraftanlage;8_1;;bnetza
-8.2 Art der Ertüchtigung;8_2;;bnetza
-8.3 Zulassungspflichtige Maßnahme;8_3;;bnetza
-8.4. HöheLeistungs-steigerung [%];8_4;;bnetza
-8.5 Datum der Ertüchtigung;8_5;;bnetza
-9.1 Zuschlagnummer PV-Freifläche;9_1;;bnetza
-9.2 Wie viel Fläche wird durch die PV-Freiflächenanlage in Anspruch genommen? [ha] ;9_2;;bnetza
-9.3 Wie viel der PV-Freifläche ist davon Ackerland? [ha] ;9_3;;bnetza
-Anlage \nBundesland;federal_state;federal state;bnetza_pv
-Anlage \nOrt oder Gemarkung;city;Place, city, village;bnetza_pv
-Anlage \nPLZ;postcode;Post code or ZIP;bnetza_pv
-Anlage \nStraße oder Flurstück *);street_address;Street name and house number;bnetza_pv
-Inbetriebnahmedatum **);start_up_date;Start-up date;bnetza_pv
-Installierte \nNennleistung [kWp];rated_power;Installed rated power;bnetza_pv
-Meldungsdatum;notification_date;notification date;bnetza_pv
-ÜNB;tso;;tennet
-BNetzA-ID;dso_id;;tennet
-Firma;dso;;tennet
-Anlagenschlüssel;eeg_id;German EEG renumeration identification number;tennet
-Bundesland;federal_state;;tennet
-PLZ;postcode;;tennet
-Install Leistung;rated_power;;tennet
-Spannungsebene;voltage_level;;tennet
-Leistungsmessung;power_measurement;power measurement;tennet
-Regelbarkeit;controllability;;tennet
-Energieträger;type_of_generation;;tennet
-Inbetriebnahme;start_up_date;Start-up date;tennet
-Außerbetriebnahme;decommissioning;Date of decommissioning;tennet
-Netzzugang;grid_access;grid access;tennet
-Netzabgang;grid_retirement;?;tennet
-REGELZONENBEZEICHNUNG ;tso;;50hertz
-Netzbetreiber Betriebsnummer;dso_id;;50hertz
-Netzbetreiber Name;dso;;50hertz
-ANLAGENSCHLÜSSEL;eeg_id;German EEG renumeration identification number;50hertz
-Bundesland;federal_state;;50hertz
-PLZ;postcode;;50hertz
-Installierte Leistung [kW];rated_power;;50hertz
-SPANNUNGSEBENE;voltage_level;;50hertz
-Leistungsgemessene Anlage?;power_measurement;;50hertz
-REGELBARKEIT ;controllability;;50hertz
-BEZEICHNUNG;type_of_generation;;50hertz
-Zeitpunkt der Inbetriebnahme ;start_up_date;Start-up date;50hertz
-Zeitpunkt der Außerbetriebn;decommissioning;Date of decommissioning;50hertz
-Zeitpunkt des Netzzuganges;grid_access;;50hertz
-Zeitpunkt des Netzabganges;grid_retirement;;50hertz
-REGELZONENBEZEICHNUNG;tso;;amprion
-Netzbetreiber Betriebsnummer ;dso_id;;amprion
-Netzbetreiber Name ;dso;;amprion
-ANLAGENSCHLÜSSEL;eeg_id;;amprion
-Bundesland;federal_state;;amprion
-PLZ;postcode;;amprion
-Installierte Leistung [kW];rated_power;;amprion
-SPANNUNGSEBENE;voltage_level;;amprion
-Leistungsgemessene Anlage?;power_measurement;;amprion
-REGELBARKEIT;controllability;;amprion
-BEZEICHNUNG;type_of_generation;;amprion
-Zeitpunkt der Inbetriebnahme;start_up_date;Start-up date;amprion
-Zeitpunkt der Außerbetriebn;decommissioning;Date of decommissioning;amprion
-Zeitpunkt des Netzzuganges;grid_access;;amprion
-Zeitpunkt des Netzabganges;grid_retirement;;amprion
-Regelzone;tso;;transnetbw
-Netzbetreiber Betriebsnummer;dso_id;;transnetbw
-Netzbetreiber Name;dso;;transnetbw
-ÜNB-Anlagennummer;eeg_id;;transnetbw
-Bundelsand;federal_state;;transnetbw
-PLZ;postcode;;transnetbw
-Installierte Leistung [kW];rated_power;;transnetbw
-Einspeisespannungsebene;voltage_level;;transnetbw
-Leistungsgemessene Anlage?;power_measurement;power measurement;transnetbw
-Regelbarkeit;controllability;;transnetbw
-Energieträger;type_of_generation;;transnetbw
-Zeitpunkt der Inbetriebnahme;start_up_date;Start-up date;transnetbw
-Zeitpunkt der Außerbetriebnahme;decommissioning;Date of decommissioning;transnetbw
-Zeitpunkt des Netzzuganges;grid_commissioning;Date of grid commissioning;transnetbw
-Zeitpunkt des Netzabganges;grid_decommissioning;Date of grid decommissioning;transnetbw
+original_name;column_naming;in_use;translation;source;row_order
+Inbetriebnahmedatum;start_up_date;yes;Start-up date;EnergyMap;1
+GeoDBID;geodb_id;no;Geometry id of the Open GeoDB;EnergyMap;2
+PLZ;postcode;yes;Post code or ZIP;EnergyMap;3
+Ort;city;yes;Name of city, village, municipality;EnergyMap;4
+Strasse;address;no;Street name and house number;EnergyMap;5
+Anlagenschluessel;eeg_id;yes;German EEG  renumeration  identification number;EnergyMap;6
+Anlagentyp;generation_type;yes;Type of generation;EnergyMap;7
+Anlagenuntertyp;generation_subtype;yes;Sub type of generation;EnergyMap;8
+Nennleistung(kWp_el);rated_power;yes;Rated electric power in kW ;EnergyMap;9
+Einspeisespannungsebene;voltage_level;yes;Type of grid connection, voltage level;EnergyMap;10
+DSO;dso;no;Name of distribution system operator;EnergyMap;11
+DSO-EIC;dso_eic;no;Energy Identification Code (EIC) for distribution system operator (DSO) accounting area;EnergyMap;12
+TSO;tso;yes;Name of TSO;EnergyMap;13
+TSO-EIC;tso_eic;no;Energy Identification Code (EIC) for transmission system operator (TSO);EnergyMap;14
+kWh(2013);kwh2013;no;Annual power production of the year 2013;EnergyMap;15
+kWh(average);kwh_avg;no;Average power production over lifespan of the power plant;EnergyMap;16
+kWh/kW;kwh_per_kw;no;Own calculation of full-load hours by EnergyMap ;EnergyMap;17
+EEG-Verguetungsschluessel;renumeration_code;no;German EEG renumeration code;EnergyMap;18
+Gemeindeschluessel;municipality_code ;no;Municipality code of Germany;EnergyMap;19
+GPS-Lat;gps_lat;yes;GPS Latitude coordinates;EnergyMap;20
+GPS-Lon;gps_lon;yes;GPS Longitude coordinates;EnergyMap;21
+GPS-Genauigkeit(dm);gps_accuracy;no;GPS accuracy of coordinates;EnergyMap;22
+Validierung;validation;no;Data validation;EnergyMap;23
+Regelbarkeit;controllability;no;Indicator whether remote controllability is implemented (yes/no);TransnetBW;
+Zeitpunkt der Außerbetriebnahme;decommission_date;no;Date of decommissioning;TransnetBW;
+Netzbetreiber Name;dso;no;;TransnetBW;
+Netzbetreiber Betriebsnummer;dso_id;no;;TransnetBW;
+ÜNB-Anlagennummer;eeg_id;yes;German EEG renumeration identification number;TransnetBW;
+Bundelsand;federal_state;no;federal state;TransnetBW;
+Energieträger;generation_type;yes;Type of generation;TransnetBW;
+Zeitpunkt des Netzzuganges;grid_commissioning_date;no;Date of grid commissioning;TransnetBW;
+Zeitpunkt des Netzabganges;grid_decommissioning_date;no;Date of grid decommissioning;TransnetBW;
+PLZ;postcode;yes;Post code or ZIP;TransnetBW;
+Leistungsgemessene Anlage?;power_measurement;no;Indicator whether  power measurement is implemented (yes/no);TransnetBW;
+Installierte Leistung [kW];rated_power;yes;Installed rated power;TransnetBW;
+Zeitpunkt der Inbetriebnahme;start_up_date;yes;Start-up date;TransnetBW;
+Regelzone;tso;yes;Name of TSO;TransnetBW;
+Einspeisespannungsebene;voltage_level;yes;Type of grid connection, voltage level;TransnetBW;
+Regelbarkeit;controllability;no;Indicator whether remote controllability is implemented (yes/no);TenneT;
+Außerbetriebnahme;decommission_date;no;Date of decommissioning;TenneT;
+Firma;dso;no;;TenneT;
+BNetzA-ID;dso_id;no;;TenneT;
+Anlagenschlüssel;eeg_id;yes;German EEG renumeration identification number;TenneT;
+Bundesland;federal_state;no;federal state;TenneT;
+Energieträger;generation_type;yes;Type of generation;TenneT;
+Netzzugang;grid_commissioning_date;no;Date of grid commissioning;TenneT;
+Netzabgang;grid_decommissioning_date;no;Date of grid decommissioning;TenneT;
+PLZ;postcode;yes;Post code or ZIP;TenneT;
+Leistungsmessung;power_measurement;no;Indicator whether  power measurement is implemented (yes/no);TenneT;
+Install Leistung;rated_power;yes;Installed rated power;TenneT;
+Inbetriebnahme;start_up_date;yes;Start-up date;TenneT;
+ÜNB;tso;yes;Name of TSO;TenneT;
+Spannungsebene;voltage_level;yes;Type of grid connection, voltage level;TenneT;
+Anlage \nStraße oder Flurstück *);address;yes;Street name and house number;BNetzA_PV;
+Anlage \nOrt oder Gemarkung;city;yes;Place, city, village;BNetzA_PV;
+Anlage \nBundesland;federal_state;no;federal state;BNetzA_PV;
+Meldungsdatum;notification_date;no;notification date to BNetzA;BNetzA_PV;
+Anlage \nPLZ;postcode;yes;Post code or ZIP;BNetzA_PV;
+Installierte \nNennleistung [kWp];rated_power;yes;Installed rated power;BNetzA_PV;
+Inbetriebnahmedatum **);start_up_date;yes;Start-up date;BNetzA_PV;
+4.13 Zugehörigkeit Anlagenpark;4_13;no;;BNetzA;
+4.13.1  Name des Anlagenparks;4_13_1;no;;BNetzA;
+4.15 Netzanschlusspunkt;4_15;no;;BNetzA;
+4.17 Fernsteuerbarkeit durch:;4_17;no;;BNetzA;
+4.18 Gemeinsame techn. Einrichtung;4_18;no;;BNetzA;
+4.19 Inanspruchnahme finanzielle Förderung;4_19;no;;BNetzA;
+4.2.1 Inst. Leistung vor Leistungs-änderung (ohne Flexprämie);4_2_1;no;;BNetzA;
+4.2.2 Inst. Leistung nach Leistungs-änderung (ohne Flexprämie);4_2_2;no;;BNetzA;
+4.20 Eigenverbrauch geplant;4_20;no;;BNetzA;
+4.4 Datum Leistungs-änderung;4_4;no;;BNetzA;
+4.6 Name der Anlage;4_6;no;;BNetzA;
+5.1 Eingesetzte Biomasse;5_1;no;;BNetzA;
+5.2 Ausschließlich Biomasse;5_2;no;;BNetzA;
+5.3 Flexprämie nach § 54 EEG ;5_3;no;;BNetzA;
+5.4 Erstmalige Inanspruchnahme Flexprämie;5_4;no;;BNetzA;
+5.4.1 Leistungserhöhung Flexprämie;5_4_1;no;;BNetzA;
+5.4.2 Datum Leistungserhöhung Flexprämie;5_4_2;no;;BNetzA;
+5.4.3 Umfang der Leistungserhöhung [kW];5_4_3;no;;BNetzA;
+5.5 Erstmalig ausschließlich Biomethan;5_5;no;;BNetzA;
+5.6 (5.8 in alter Version) Zustimmung gesonderte Veröffentlichung Biomethanstilllegung;5_6;no;;BNetzA;
+6.1 KWK-Anlage;6_1;no;;BNetzA;
+6.3 Andere Energieträger vor 01.08.2014;6_3;no;;BNetzA;
+6.4 Eingesetzte andere Energieträger vor 01.08.2014;6_4;no;;BNetzA;
+6.5 Erstmalige Stromerzeugung;6_5;no;;BNetzA;
+7.6 Stilllegung gemeldet;7_6;no;;BNetzA;
+7.7.1 Mittlere Windge-schwindigkeit [m/s];7_7_1;no;;BNetzA;
+7.7.2 Formparameter Weibull-Verteilung;7_7_2;no;;BNetzA;
+7.7.3 Skalenparameter Weibull-Verteilung;7_7_3;no;;BNetzA;
+7.7.4 Ertrags-einschätzung [kWh];7_7_4;no;;BNetzA;
+7.7.5 Ertragseinschätzung/Referenzertrag [%];7_7_5;no;;BNetzA;
+7.8.1 Seelage;7_8_1;no;;BNetzA;
+7.8.2 Wassertiefe [m];7_8_2;no;;BNetzA;
+7.8.3 Küstenentfernung [km];7_8_3;no;;BNetzA;
+8.1 Ertüchtigung Wasserkraftanlage;8_1;no;;BNetzA;
+8.2 Art der Ertüchtigung;8_2;no;;BNetzA;
+8.3 Zulassungspflichtige Maßnahme;8_3;no;;BNetzA;
+8.4. HöheLeistungs-steigerung [%];8_4;no;;BNetzA;
+8.5 Datum der Ertüchtigung;8_5;no;;BNetzA;
+9.1 Zuschlagnummer PV-Freifläche;9_1;no;;BNetzA;
+9.2 Wie viel Fläche wird durch die PV-Freiflächenanlage in Anspruch genommen? [ha] ;9_2;no;;BNetzA;
+9.3 Wie viel der PV-Freifläche ist davon Ackerland? [ha] ;9_3;no;;BNetzA;
+4.7 Strasse bzw. Flurstück;address;yes;Street name and house number;BNetzA;
+3.2 Genehmigungs-behörde;approval_authority;no;permit authority;BNetzA;
+3.1 Genehmigungs-datum;approval_date;no;Approval date of BNetzA ;BNetzA;
+4.10 Ort bzw. Gemarkung;city;yes;Name of city, village, municipality;BNetzA;
+Gemeinde-schlüssel;city_id;no;Municipality code of Germany;BNetzA;
+4.5 Stilllegungs-datum;decommission_date;no;Date of decommissioning;BNetzA;
+4.16 Name des Netzbetreibers;dso;no;;BNetzA;
+1.8 EEG-Anlagenschlüssel;eeg_id;yes;German EEG renumeration identification number;BNetzA;
+4.11 Bundesland;federal_state;no;Name of federal state;BNetzA;
+3.3 Genehmigungs-Aktenzeichen;file_number;no;permit file number;BNetzA;
+4.1 Energieträger;generation_type;yes;Type of generation;BNetzA;
+4.8 Haus-nummer;house_number;no;House number;BNetzA;
+7.3 Nabenhöhe [m];hub_hight;no;Hub height  in meter;BNetzA;
+7.1 Windanlagenhersteller;manufacturer;no;Wind turbine manufacturer;BNetzA;
+Zählpunktbezeichnung;metering_point;no;Name of metering point;BNetzA;
+7.2 Anlagentyp;model;no;Wind turbine model;BNetzA;
+Meldedatum;notification_date ;yes;notification date to BNetzA;BNetzA;
+Meldegrund;notification_reason;yes;Reason for notification to BNetzA;BNetzA;
+4.9 Postleit-zahl;postcode;yes;Post code or ZIP;BNetzA;
+Anlagennummer;power_plant_id;yes;Power plant identification number by BNetzA;BNetzA;
+4.2 Installierte Leistung [kW];rated_power;yes;Rated electric power in kW ;BNetzA;
+7.5 Repowering;repowering;no;Repowering? Boolean yes or no;BNetzA;
+7.4 Rotordurch-messer [m];rotor_diameter;no;Rotor diameter in meter;BNetzA;
+4.3 Tatsächliche Inbetrieb-nahme;start_up_date;yes;Start-up date;BNetzA;
+3.4 Geplantes Inbetriebnahme-datum;start_up_date_planned;no;Planned start-up date;BNetzA;
+3.5 Errichtungs-frist;submission_deadline;no;Deadline for submission of permit application;BNetzA;
+6.2 Thermische Leistung [kW];thermal_capacity;yes;thermal rating / output / capacity in kW;BNetzA;
+UTM-East;utm_east;no;;BNetzA;
+UTM-North;utm_north;no;;BNetzA;
+UTM-Zonenwert;utm_zone;no;;BNetzA;
+4.14 Spannungsebene;voltage_level;yes;Type of grid connection, voltage level;BNetzA;
+REGELBARKEIT;controllability;no;Indicator whether remote controllability is implemented (yes/no);Amprion;
+Zeitpunkt der Außerbetriebn;decommission_date;no;Date of decommissioning;Amprion;
+Netzbetreiber Name ;dso;no;;Amprion;
+Netzbetreiber Betriebsnummer ;dso_id;no;;Amprion;
+ANLAGENSCHLÜSSEL;eeg_id;yes;German EEG renumeration identification number;Amprion;
+Bundesland;federal_state;no;federal state;Amprion;
+BEZEICHNUNG;generation_type;yes;Type of generation;Amprion;
+Zeitpunkt des Netzzuganges;grid_commissioning_date;no;Date of grid commissioning;Amprion;
+Zeitpunkt des Netzabganges;grid_decommissioning_date;no;Date of grid decommissioning;Amprion;
+PLZ;postcode;yes;Post code or ZIP;Amprion;
+Leistungsgemessene Anlage?;power_measurement;no;Indicator whether  power measurement is implemented (yes/no);Amprion;
+Installierte Leistung [kW];rated_power;yes;Installed rated power;Amprion;
+Zeitpunkt der Inbetriebnahme;start_up_date;yes;Start-up date;Amprion;
+REGELZONENBEZEICHNUNG;tso;yes;Name of TSO;Amprion;
+SPANNUNGSEBENE;voltage_level;yes;Type of grid connection, voltage level;Amprion;
+REGELBARKEIT ;controllability;no;Indicator whether remote controllability is implemented (yes/no);50Hertz;
+Zeitpunkt der Außerbetriebn;decommission_date;no;Date of decommissioning;50Hertz;
+Netzbetreiber Name;dso;no;;50Hertz;
+Netzbetreiber Betriebsnummer;dso_id;no;;50Hertz;
+ANLAGENSCHLÜSSEL;eeg_id;yes;German EEG renumeration identification number;50Hertz;
+Bundesland;federal_state;no;federal state;50Hertz;
+BEZEICHNUNG;generation_type;yes;Type of generation;50Hertz;
+Zeitpunkt des Netzzuganges;grid_commissioning_date;no;Date of grid commissioning;50Hertz;
+Zeitpunkt des Netzabganges;grid_decommissioning_date;no;Date of grid decommissioning;50Hertz;
+PLZ;postcode;yes;Post code or ZIP;50Hertz;
+Leistungsgemessene Anlage?;power_measurement;no;Indicator whether  power measurement is implemented (yes/no);50Hertz;
+Installierte Leistung [kW];rated_power;yes;Installed rated power;50Hertz;
+Zeitpunkt der Inbetriebnahme ;start_up_date;yes;Start-up date;50Hertz;
+REGELZONENBEZEICHNUNG ;tso;yes;Name of TSO;50Hertz;
+SPANNUNGSEBENE;voltage_level;yes;Type of grid connection, voltage level;50Hertz;
