@@ -1,4 +1,4 @@
-original_name;column_naming;in_use;translation;source;row_order
+original_name;column_naming;in_use;description;source;row_order
 Inbetriebnahmedatum;start_up_date;yes;Start-up date;EnergyMap;1
 GeoDBID;geodb_id;no;Geometry id of the Open GeoDB;EnergyMap;2
 PLZ;postcode;yes;Post code or ZIP;EnergyMap;3
@@ -7,7 +7,7 @@ Strasse;address;no;Street name and house number;EnergyMap;5
 Anlagenschluessel;eeg_id;yes;German EEG  renumeration  identification number;EnergyMap;6
 Anlagentyp;generation_type;yes;Type of generation;EnergyMap;7
 Anlagenuntertyp;generation_subtype;yes;Sub type of generation;EnergyMap;8
-Nennleistung(kWp_el);rated_power;yes;Rated electric power in kW ;EnergyMap;9
+Nennleistung(kWp_el);electrical_capacity;yes;Rated electric power in kW ;EnergyMap;9
 Einspeisespannungsebene;voltage_level;yes;Type of grid connection, voltage level;EnergyMap;10
 DSO;dso;no;Name of distribution system operator;EnergyMap;11
 DSO-EIC;dso_eic;no;Energy Identification Code (EIC) for distribution system operator (DSO) accounting area;EnergyMap;12
@@ -33,7 +33,7 @@ Zeitpunkt des Netzzuganges;grid_commissioning_date;no;Date of grid commissioning
 Zeitpunkt des Netzabganges;grid_decommissioning_date;no;Date of grid decommissioning;TransnetBW;32
 PLZ;postcode;yes;Post code or ZIP;TransnetBW;33
 Leistungsgemessene Anlage?;power_measurement;no;Indicator whether  power measurement is implemented (yes/no);TransnetBW;34
-Installierte Leistung [kW];rated_power;yes;Installed rated power;TransnetBW;35
+Installierte Leistung [kW];electrical_capacity;yes;Installed electrical capacity;TransnetBW;35
 Zeitpunkt der Inbetriebnahme;start_up_date;yes;Start-up date;TransnetBW;36
 Regelzone;tso;yes;Name of TSO;TransnetBW;37
 Einspeisespannungsebene;voltage_level;yes;Type of grid connection, voltage level;TransnetBW;38
@@ -48,7 +48,7 @@ Netzzugang;grid_commissioning_date;no;Date of grid commissioning;TenneT;46
 Netzabgang;grid_decommissioning_date;no;Date of grid decommissioning;TenneT;47
 PLZ;postcode;yes;Post code or ZIP;TenneT;48
 Leistungsmessung;power_measurement;no;Indicator whether  power measurement is implemented (yes/no);TenneT;49
-Install Leistung;rated_power;yes;Installed rated power;TenneT;50
+Install Leistung;electrical_capacity;yes;Installed electrical capacity;TenneT;50
 Inbetriebnahme;start_up_date;yes;Start-up date;TenneT;51
 ÜNB;tso;yes;Name of TSO;TenneT;52
 Spannungsebene;voltage_level;yes;Type of grid connection, voltage level;TenneT;53
@@ -57,7 +57,7 @@ Anlage \nOrt oder Gemarkung;city;yes;Place, city, village;BNetzA_PV;55
 Anlage \nBundesland;federal_state;no;federal state;BNetzA_PV;56
 Meldungsdatum;notification_date;no;notification date to BNetzA;BNetzA_PV;57
 Anlage \nPLZ;postcode;yes;Post code or ZIP;BNetzA_PV;58
-Installierte \nNennleistung [kWp];rated_power;yes;Installed rated power;BNetzA_PV;59
+Installierte \nNennleistung [kWp];electrical_capacity;yes;Installed electrical capacity;BNetzA_PV;59
 Inbetriebnahmedatum **);start_up_date;yes;Start-up date;BNetzA_PV;60
 4.13 Zugehörigkeit Anlagenpark;4_13;no;;BNetzA;61
 4.13.1  Name des Anlagenparks;4_13_1;no;;BNetzA;62
@@ -120,13 +120,13 @@ Meldedatum;notification_date ;yes;notification date to BNetzA;BNetzA;118
 Meldegrund;notification_reason;yes;Reason for notification to BNetzA;BNetzA;119
 4.9 Postleit-zahl;postcode;yes;Post code or ZIP;BNetzA;120
 Anlagennummer;power_plant_id;yes;Power plant identification number by BNetzA;BNetzA;121
-4.2 Installierte Leistung [kW];rated_power;yes;Rated electric power in kW ;BNetzA;122
+4.2 Installierte Leistung [kW];electrical_capacity;yes; Installed electrical capacity  in kW;BNetzA;122
 7.5 Repowering;repowering;no;Repowering? Boolean yes or no;BNetzA;123
 7.4 Rotordurch-messer [m];rotor_diameter;no;Rotor diameter in meter;BNetzA;124
 4.3 Tatsächliche Inbetrieb-nahme;start_up_date;yes;Start-up date;BNetzA;125
 3.4 Geplantes Inbetriebnahme-datum;start_up_date_planned;no;Planned start-up date;BNetzA;126
 3.5 Errichtungs-frist;submission_deadline;no;Deadline for submission of permit application;BNetzA;127
-6.2 Thermische Leistung [kW];thermal_capacity;yes;thermal rating / output / capacity in kW;BNetzA;128
+6.2 Thermische Leistung [kW];thermal_capacity;yes;thermal capacity in kW;BNetzA;128
 UTM-East;utm_east;no;;BNetzA;129
 UTM-North;utm_north;no;;BNetzA;130
 UTM-Zonenwert;utm_zone;no;;BNetzA;131
@@ -142,7 +142,7 @@ Zeitpunkt des Netzzuganges;grid_commissioning_date;no;Date of grid commissioning
 Zeitpunkt des Netzabganges;grid_decommissioning_date;no;Date of grid decommissioning;Amprion;141
 PLZ;postcode;yes;Post code or ZIP;Amprion;142
 Leistungsgemessene Anlage?;power_measurement;no;Indicator whether  power measurement is implemented (yes/no);Amprion;143
-Installierte Leistung [kW];rated_power;yes;Installed rated power;Amprion;144
+Installierte Leistung [kW];electrical_capacity;yes;Installed electrical capacity in kW;Amprion;144
 Zeitpunkt der Inbetriebnahme;start_up_date;yes;Start-up date;Amprion;145
 REGELZONENBEZEICHNUNG;tso;yes;Name of TSO;Amprion;146
 SPANNUNGSEBENE;voltage_level;yes;Type of grid connection, voltage level;Amprion;147
@@ -157,7 +157,7 @@ Zeitpunkt des Netzzuganges;grid_commissioning_date;no;Date of grid commissioning
 Zeitpunkt des Netzabganges;grid_decommissioning_date;no;Date of grid decommissioning;50Hertz;156
 PLZ;postcode;yes;Post code or ZIP;50Hertz;157
 Leistungsgemessene Anlage?;power_measurement;no;Indicator whether  power measurement is implemented (yes/no);50Hertz;158
-Installierte Leistung [kW];rated_power;yes;Installed rated power;50Hertz;159
+Installierte Leistung [kW];electrical_capacity;yes;Installed electrical capacity;50Hertz;159
 Zeitpunkt der Inbetriebnahme ;start_up_date;yes;Start-up date;50Hertz;160
 REGELZONENBEZEICHNUNG ;tso;yes;Name of TSO;50Hertz;161
 SPANNUNGSEBENE;voltage_level;yes;Type of grid connection, voltage level;50Hertz;162

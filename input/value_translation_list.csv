@@ -1,30 +1,44 @@
-original_name;generation_subtype;generation_type
-Wind Land;wind_onshore;wind
-Wind See;wind_offshore;wind
-Klärgas;gas_sewage;gas
-Grubengas;gas_mine;gas
-Freifläche PV;solar_ground_mounted;solar
-Deponiegas;gas_landfill;gas
-Biomasse;biomass;biomass
-Wasserkraft;hydro;hydro
-Gas;gas;gas
-Erdwärme;geothermal;geothermal
-Wasserkraft;hydro;hydro
-Windkraft;wind_onshore;wind
-Biomasse;biomass;biomass
-Solarstrom;solar_roof_mounted;solar
-Onshore;wind_onshore;wind
-Offshore;wind_offshore;wind
-Holz;wood;biomass
-Gebäude;solar_roof_mounted;solar
-Freifläche;solar_ground_mounted;solar
-Biotreibstoffe;biofuel;biomass
-Biogas (Trockenfermentation);biogas_dry_fermentation;biomass
-Altholz;waste_wood;biomass
-Biogas (Gasnetzentnahme);biogas_from_grid;biomass
-Biogas;biogas;biomass
-Geothermie;geothermal;geothermal
-Windenergie Offshore;wind_offshore;wind
-Solar;solar_roof_mounted;solar
-Windenergie;wind_onshore;wind
-Windenergie an Land;wind_onshore;wind
+original_name;opsd_naming;source
+Wind Land;wind_onshore;BNetzA
+Wind See;wind_offshore;BNetzA
+Klärgas;gas_sewage;
+Grubengas;gas_mine;
+Freifläche PV;solar_ground_mounted;
+Deponiegas;gas_landfill;
+Biomasse;biomass;
+Wasserkraft;hydro;
+Gas;gas;
+Erdwärme;geothermal;
+Wasserkraft;hydro;
+Windkraft;wind_onshore;
+Biomasse;biomass;
+Solarstrom;solar_roof_mounted;
+Onshore;wind_onshore;
+Offshore;wind_offshore;
+Holz;wood;
+Gebäude;solar_roof_mounted;
+Freifläche;solar_ground_mounted;
+Biotreibstoffe;biofuel;
+Biogas (Trockenfermentation);biogas_dry_fermentation;
+Altholz;waste_wood;
+Biogas (Gasnetzentnahme);biogas_from_grid;
+Biogas;biogas;
+Geothermie;geothermal;
+Windenergie Offshore;wind_offshore;
+Solar;solar_roof_mounted;
+Windenergie;wind_onshore;
+Windenergie an Land;wind_onshore;
+01 (HöS);01 (HöS);EnergyMap
+02 (HöS/HS);02 (HöS/HS);EnergyMap
+03 (HS);03 (HS);EnergyMap
+04 (HS/MS);04 (HS/MS);EnergyMap
+05 (MS);05 (MS);EnergyMap
+06 (MS/NS);06 (MS/NS);EnergyMap
+07 (NS);07 (NS);EnergyMap
+HS;03 (HS);BNetzA
+HS/MS;06 (MS/NS);BNetzA
+HöS;01 (HöS);BNetzA
+HöS/HS;02 (HöS/HS);BNetzA
+MS;05 (MS);BNetzA
+MS/NS;06 (MS/NS);BNetzA
+NS;07 (NS);BNetzA
