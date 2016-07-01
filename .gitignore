@@ -1,1 +1,6 @@
 output
+.ipynb_checkpoints/
+input/original_data/
+raw_data.sqlite
+requirements.txt~
+validation_report.xlsx
