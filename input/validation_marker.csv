@@ -1,0 +1,7 @@
+Validation marker,Explanation
+R_1,The data frame overlaps in date of the record until 2014-12-31 because of merging the different data sources. All entries from the BNetzA get a marker because of a very high probability of duplication
+R_2,The start_up_date column has no entry (NA/Null)
+R_3,"All power plant entries which do not have ""start up (Inbetriebnahme)"" listed as reason for their entry will get a marker. Explanation: The BNetzA power plant list entries include a reason for their entry, e.g. ""start up"", ""retrofit"" etc. If another reason than ""start up"" is given it means that the power plant is already existing and thus most likely already included in our data set. Due to the missing unique identifier and no possiblity to check for duplicates it is likely that those entries are duplicates."
+R_4,start_up_date of PV system is older than 1975.
+R_5,energy_source contains '#NV' value.
+R_6,electrical_capacity is not specified.
