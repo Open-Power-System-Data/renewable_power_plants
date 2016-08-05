@@ -1,4 +1,4 @@
-original_name,column_naming,in_use,description,source
+original_name,opsd_name,in_use,description,data_source
 Regelbarkeit,controllability,no,Indicator whether remote controllability is implemented (yes/no),TransnetBW
 Zeitpunkt der Außerbetriebnahme,decommission_date,no,Date of decommissioning,TransnetBW
 Netzbetreiber Name,dso,no,Name of DSO,TransnetBW

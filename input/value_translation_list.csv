@@ -1,22 +1,22 @@
-original_name,opsd_naming,source,energy_source,energy_source_subtype
-Wind Land,wind_onshore,BNetzA /,wind,wind_onshore
-Wind See,wind_offshore,BNetzA,wind,wind_offshore
-Klärgas,gas_sewage,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,gas,gas_sewage
-Grubengas,gas_mine,BnetzA/ Amprion,gas,gas_mine
-Freifläche PV,solar_ground,BnetzA,solar,solar_ground
-Deponiegas,gas_landfill,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,gas,gas_landfill
-Biomasse,biomass,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,biomass,biomass
-Wasserkraft,hydro,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,hydro,hydro
-Wasserkraft,hydro,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,hydro,hydro
-Geothermie,geothermal,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,geothermal,geothermal
-Windenergie Offshore,wind_offshore,50Hertz / TenneT,wind,wind_offshore
-Solar,solar,TransnetBW / TenneT / 50Hertz / Amprion,solar,solar
-Windenergie,wind_onshore,TenneT / 50Hertz / Amprion,wind,wind_onshore
-Windenergie an Land,wind_onshore,TransnetBW,wind,wind_onshore
-HS,03 (HS),BNetzA,,
-HS/MS,04 (HS/MS),BNetzA,,
-HöS,01 (HöS),BNetzA,,
-HöS/HS,02 (HöS/HS),BNetzA,,
-MS,05 (MS),BNetzA,,
-MS/NS,06 (MS/NS),BNetzA,,
-NS,07 (NS),BNetzA,,
+original_name,opsd_name,data_source,energy_source
+Wind Land,wind_onshore,BNetzA /,wind
+Wind See,wind_offshore,BNetzA,wind
+Klärgas,gas_sewage,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,gas
+Grubengas,gas_mine,BnetzA/ Amprion,gas
+Freifläche PV,solar_ground,BnetzA,solar
+Deponiegas,gas_landfill,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,gas
+Biomasse,biomass,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,biomass
+Wasserkraft,hydro,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,hydro
+Wasserkraft,hydro,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,hydro
+Geothermie,geothermal,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,geothermal
+Windenergie Offshore,wind_offshore,50Hertz / TenneT,wind
+Solar,solar,TransnetBW / TenneT / 50Hertz / Amprion,solar
+Windenergie,wind_onshore,TenneT / 50Hertz / Amprion,wind
+Windenergie an Land,wind_onshore,TransnetBW,wind
+HS,03 (HS),BNetzA,
+HS/MS,04 (HS/MS),BNetzA,
+HöS,01 (HöS),BNetzA,
+HöS/HS,02 (HöS/HS),BNetzA,
+MS,05 (MS),BNetzA,
+MS/NS,06 (MS/NS),BNetzA,
+NS,07 (NS),BNetzA,
