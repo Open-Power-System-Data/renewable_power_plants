@@ -96,7 +96,7 @@ Zählpunktbezeichnung,metering_point,no,Name of metering point,BNetzA
 Meldedatum,notification_date ,yes,Notification date to BNetzA,BNetzA
 Meldegrund,notification_reason,yes,Reason for notification to BNetzA,BNetzA
 4.9 Postleit-zahl,postcode,yes,Post or ZIP code,BNetzA
-Anlagennummer,power_plant_id,yes,Power plant identification number by BNetzA,BNetzA
+Anlagennummer,bnetza_id,yes,Power plant identification number by BNetzA,BNetzA
 4.2 Installierte Leistung [kW],electrical_capacity,yes,Installed electrical capacity  in kW,BNetzA
 7.5 Repowering,repowering,no,Repowering? [yes or no],BNetzA
 7.4 Rotordurch-messer [m],rotor_diameter,no,Rotor diameter in meter,BNetzA
@@ -135,6 +135,6 @@ Zeitpunkt des Netzabganges,grid_decommissioning_date,no,Date of grid decommissio
 PLZ,postcode,yes,Post or ZIP code,50Hertz
 Leistungsgemessene Anlage?,power_measurement,no,Indicator whether power measurement is implemented (yes/no),50Hertz
 Installierte Leistung [kW],electrical_capacity,yes,Installed electrical capacity,50Hertz
-Zeitpunkt der Inbetriebnahme ,start_up_date,yes,Start-up date,50Hertz
+Zeitpunkt der Inbetriebnahme ,start_up_date,yes,Date of commissioning,50Hertz
 REGELZONENBEZEICHNUNG ,tso,yes,Name of TSO,50Hertz
 SPANNUNGSEBENE,voltage_level,yes,Type of grid connection/voltage level,50Hertz
