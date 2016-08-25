@@ -3,7 +3,8 @@ Regelbarkeit,controllability,no,Indicator whether remote controllability is impl
 Zeitpunkt der Außerbetriebnahme,decommission_date,no,Date of decommissioning,TransnetBW
 Netzbetreiber Name,dso,no,Name of DSO,TransnetBW
 Netzbetreiber Betriebsnummer,dso_id,no,Company number of DSO,TransnetBW
-ÜNB-Anlagennummer,eeg_id,yes,German EEG renumeration ID number,TransnetBW
+ÜNB-Anlagennummer,eeg_id,no,German EEG renumeration ID number,TransnetBW
+ÜNB-Anlagenschlüssel,eeg_id,yes,German EEG renumeration ID number,TransnetBW
 Bundelsand,federal_state,no,Federal state,TransnetBW
 Energieträger,energy_source,yes,Type of generation/energy source,TransnetBW
 Zeitpunkt des Netzzuganges,grid_commissioning_date,no,Date of grid commissioning,TransnetBW
