@@ -1,22 +1,25 @@
-original_name,opsd_name,data_source,energy_source
-Wind Land,wind_onshore,BNetzA /,wind
-Wind See,wind_offshore,BNetzA,wind
-Klärgas,gas_sewage,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,gas
-Grubengas,gas_mine,BnetzA/ Amprion,gas
-Freifläche PV,solar_ground,BnetzA,solar
-Deponiegas,gas_landfill,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,gas
-Biomasse,biomass,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,biomass
-Wasserkraft,hydro,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,hydro
-Wasserkraft,hydro,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,hydro
-Geothermie,geothermal,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion,geothermal
-Windenergie Offshore,wind_offshore,50Hertz / TenneT,wind
-Solar,solar,TransnetBW / TenneT / 50Hertz / Amprion,solar
-Windenergie,wind_onshore,TenneT / 50Hertz / Amprion,wind
-Windenergie an Land,wind_onshore,TransnetBW,wind
-HS,03 (HS),BNetzA,
-HS/MS,04 (HS/MS),BNetzA,
-HöS,01 (HöS),BNetzA,
-HöS/HS,02 (HöS/HS),BNetzA,
-MS,05 (MS),BNetzA,
-MS/NS,06 (MS/NS),BNetzA,
-NS,07 (NS),BNetzA,
+original_name,opsd_name,energy_source,country,data_source
+Wind Land,wind_onshore,wind,DE,BNetzA /
+Wind See,wind_offshore,wind,DE,BNetzA
+Klärgas,gas_sewage,gas,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Grubengas,gas_mine,gas,DE,BnetzA/ Amprion
+Freifläche PV,solar_ground,solar,DE,BnetzA
+Deponiegas,gas_landfill,gas,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Biomasse,biomass,biomass,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Wasserkraft,hydro,hydro,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Wasserkraft,hydro,hydro,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Geothermie,geothermal,geothermal,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Windenergie Offshore,wind_offshore,wind,DE,50Hertz / TenneT
+Solar,solar,solar,DE,TransnetBW / TenneT / 50Hertz / Amprion
+Windenergie,wind_onshore,wind,DE,TenneT / 50Hertz / Amprion
+Windenergie an Land,wind_onshore,wind,DE,TransnetBW
+HS,03 (HS),,DE,BNetzA
+HS/MS,04 (HS/MS),,DE,BNetzA
+HöS,01 (HöS),,DE,BNetzA
+HöS/HS,02 (HöS/HS),,DE,BNetzA
+MS,05 (MS),,DE,BNetzA
+MS/NS,06 (MS/NS),,DE,BNetzA
+NS,07 (NS),,DE,BNetzA
+HAV,wind_offshore,wind,DK,Energistyrelsen
+LAND,wind_onshore,wind,DK,Energistyrelsen
+Land,wind_onshore,wind,DK,Energistyrelsen

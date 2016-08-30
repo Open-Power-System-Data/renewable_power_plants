@@ -1,46 +1,77 @@
-original_name,opsd_name,description,data_source
-ÜNB,tso,Name of transmission system operator,50Hertz;Amprion;TenneT;TransnetBW
-Netzbetreiber Name,dso,Name of distribution system operator,50Hertz;Amprion;TenneT;TransnetBW
-Netzbetreiber Betriebsnummer,dso_id,Company number of dso,50Hertz;Amprion;TenneT;TransnetBW
-ÜNB-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,50Hertz;Amprion;TenneT;TransnetBW
-Bundesland,federal_state,Federal state – administrative region NUTS1-level,50Hertz;Amprion;TenneT
-Bundelsand,federal_state,Federal state – administrative region NUTS1-level,TransnetBW
-PLZ,postcode,Postcode or ZIP-code,50Hertz;Amprion;TenneT;TransnetBW
-Installierte Leistung [kW],electrical_capacity,Installed electrical capacity in kW,50Hertz;Amprion;TenneT;TransnetBW
-Einspeisespannungsebene,voltage_level,Grid connection/voltage level,50Hertz;Amprion;TenneT;TransnetBW
-Leistungsmessung,power_measurement,Indicates whether power measurement is implemented,50Hertz;Amprion;TenneT;TransnetBW
-Regelbarkeit,controllability,Indicates whether remote controllability is implemented,50Hertz;Amprion;TenneT;TransnetBW
-Energieträger,energy_source,Type of energy source / generation,50Hertz;Amprion;TenneT;TransnetBW
-Inbetriebnahme,commissioning_date,,50Hertz;Amprion;TenneT;TransnetBW
-Außerbetriebnahme,decommissioning_date,,50Hertz;Amprion;TenneT;TransnetBW
-Netzzugang,grid_commissioning_date,,50Hertz;Amprion;TenneT;TransnetBW
-Netzabgang,grid_decommissioning_date,,50Hertz;Amprion;TenneT;TransnetBW
-Anlagennummer,bnetza_id,Power plant identification number by BnetzA (Germany),BNetzA
-1.8 EEG-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,BNetzA
-4.1 Energieträger,energy_source,Type of energy source / generation,BNetzA
-4.2 Installierte Leistung [kW],electrical_capacity,Installed electrical capacity in kW,BNetzA
-4.3 Tatsächliche Inbetrieb-nahme,commissioning_date,,BNetzA
-4.5 Stilllegungs-datum,decommissioning_date,,BNetzA
-4.7 Strasse bzw. Flurstück,address,Street name or name of land parcel,BNetzA
-4.8 Haus-nummer,house_number,House number or number of land parcel,BNetzA
-4.9 Postleit-zahl,postcode,Postcode or ZIP-code,BNetzA
-4.10 Ort bzw. Gemarkung,municipality,Name of city or village or municipality,BNetzA
-Gemeinde-schlüssel,municipality_code,German municipality code,BNetzA
-4.11 Bundesland,federal_state,Federal state – administrative region NUTS1-level,BNetzA
-UTM-Zonenwert,utm_zone,Universal Transverse Mercator zone value,BNetzA
-UTM-East,utm_east,Coordinate in Universal Transverse Mercator (east),BNetzA
-UTM-North,utm_north,Coordinate in Universal Transverse Mercator (north),BNetzA
-4.14 Spannungsebene,voltage_level,Grid connection/voltage level,BNetzA
-4.16 Name des Netzbetreibers,dso,Name of distribution system operator,BNetzA
-6.2 Thermische Leistung [kW],thermal_capacity,Installed thermal capacity in kW,BNetzA
+original_name,opsd_name,description,country,data_source
+ÜNB,tso,Name of transmission system operator,DE,50Hertz;Amprion;TenneT;TransnetBW
+Netzbetreiber Name,dso,Name of distribution system operator,DE,50Hertz;Amprion;TenneT;TransnetBW
+Netzbetreiber Betriebsnummer,dso_id,Company number of dso,DE,50Hertz;Amprion;TenneT;TransnetBW
+ÜNB-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,DE,50Hertz;Amprion;TenneT;TransnetBW
+Bundesland,federal_state,Federal state – administrative region NUTS1-level,DE,50Hertz;Amprion;TenneT
+Bundelsand,federal_state,Federal state – administrative region NUTS1-level,DE,TransnetBW
+PLZ,postcode,Postcode or ZIP-code,DE,50Hertz;Amprion;TenneT;TransnetBW
+Installierte Leistung [kW],electrical_capacity,Installed electrical capacity in kW,DE,50Hertz;Amprion;TenneT;TransnetBW
+Einspeisespannungsebene,voltage_level,Grid connection/voltage level,DE,50Hertz;Amprion;TenneT;TransnetBW
+Leistungsmessung,power_measurement,Indicates whether power measurement is implemented,DE,50Hertz;Amprion;TenneT;TransnetBW
+Regelbarkeit,controllability,Indicates whether remote controllability is implemented,DE,50Hertz;Amprion;TenneT;TransnetBW
+Energieträger,energy_source,Type of energy source / generation,DE,50Hertz;Amprion;TenneT;TransnetBW
+Inbetriebnahme,commissioning_date,,DE,50Hertz;Amprion;TenneT;TransnetBW
+Außerbetriebnahme,decommissioning_date,,DE,50Hertz;Amprion;TenneT;TransnetBW
+Netzzugang,grid_commissioning_date,,DE,50Hertz;Amprion;TenneT;TransnetBW
+Netzabgang,grid_decommissioning_date,,DE,50Hertz;Amprion;TenneT;TransnetBW
+Anlagennummer,bnetza_id,Power plant identification number by BnetzA (Germany),DE,BNetzA
+1.8 EEG-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,DE,BNetzA
+4.1 Energieträger,energy_source,Type of energy source / generation,DE,BNetzA
+4.2 Installierte Leistung [kW],electrical_capacity,Installed electrical capacity in kW,DE,BNetzA
+4.3 Tatsächliche Inbetrieb-nahme,commissioning_date,,DE,BNetzA
+4.5 Stilllegungs-datum,decommissioning_date,,DE,BNetzA
+4.7 Strasse bzw. Flurstück,address,Street name or name of land parcel,DE,BNetzA
+4.8 Haus-nummer,house_number,House number or number of land parcel,DE,BNetzA
+4.9 Postleit-zahl,postcode,Postcode or ZIP-code,DE,BNetzA
+4.10 Ort bzw. Gemarkung,municipality,Name of city or village or municipality,DE,BNetzA
+Gemeinde-schlüssel,municipality_code,German municipality code,DE,BNetzA
+4.11 Bundesland,federal_state,Federal state – administrative region NUTS1-level,DE,BNetzA
+UTM-Zonenwert,utm_zone,Universal Transverse Mercator zone value,DE,BNetzA
+UTM-East,utm_east,Coordinate in Universal Transverse Mercator (east),DE,BNetzA
+UTM-North,utm_north,Coordinate in Universal Transverse Mercator (north),DE,BNetzA
+4.14 Spannungsebene,voltage_level,Grid connection/voltage level,DE,BNetzA
+4.16 Name des Netzbetreibers,dso,Name of distribution system operator,DE,BNetzA
+6.2 Thermische Leistung [kW],thermal_capacity,Installed thermal capacity in kW,DE,BNetzA
 "Anlage 
-Straße oder Flurstück *)",address,Street name and house number or name of land parcel,BNetzA_PV
+Straße oder Flurstück *)",address,Street name and house number or name of land parcel,DE,BNetzA_PV
 "Anlage 
-PLZ",postcode,Postcode or ZIP-code,BNetzA_PV
+PLZ",postcode,Postcode or ZIP-code,DE,BNetzA_PV
 "Anlage 
-Ort oder Gemarkung",municipality,Name of city or village or municipality,BNetzA_PV
+Ort oder Gemarkung",municipality,Name of city or village or municipality,DE,BNetzA_PV
 "Anlage 
-Bundesland",federal_state,Federal state – administrative region NUTS1-level,BNetzA_PV
-Inbetriebnahmedatum **),commissioning_date,,BNetzA_PV
+Bundesland",federal_state,Federal state – administrative region NUTS1-level,DE,BNetzA_PV
+Inbetriebnahmedatum **),commissioning_date,,DE,BNetzA_PV
 "Installierte 
-Nennleistung [kWp]",electrical_capacity,Installed electrical capacity in kW,BNetzA_PV
+Nennleistung [kWp]",electrical_capacity,Installed electrical capacity in kW,DE,BNetzA_PV
+Møllenummer (GSRN),identification_number,Turbine identifier (GSRN),DK,Energistyrelsen
+Dato for oprindelig nettilslutning,start_up_date,Date of original connection to grid,DK,Energistyrelsen
+Kapacitet (kW),electrical_capacity,Installed electrical capacity in kW,DK,Energistyrelsen
+Rotor-diameter (m),rotor_diameter,Rotor diameter in m,DK,Energistyrelsen
+Navhøjde (m),hub_height,Hub heigth in m,DK,Energistyrelsen
+Fabrikat,manufacturer,Company that has built the turbine,DK,Energistyrelsen
+Model,model,Wind turbine model,DK,Energistyrelsen
+Kommune-nr.,municipality_no,Number of municipality,DK,Energistyrelsen
+Kommune,municipality_name,Name of municipality,DK,Energistyrelsen
+Type af placering,energy_source_subtype,Type of location: on- or offshore,DK,Energistyrelsen
+Ejerlav,address,Name of land parcel / location,DK,Energistyrelsen
+Matrikel-nummer,address_number,Number of land parcel / location,DK,Energistyrelsen
+X (øst) koordinat \nUTM 32 Euref89,utm_east,Coordinate in Universal Transverse Mercator (east),DK,Energistyrelsen
+Y (nord) koordinat UTM 32 Euref89,utm_north,Coordinate in Universal Transverse Mercator (north),DK,Energistyrelsen
+Koordinatoprindelse,origin_of_coordinate,Universal Transverse Mercator position/zone value,DK,Energistyrelsen
+Netselskabets installations-nummer,installation_no,Distribution company installation number,DK,Energistyrelsen
+Type af nettilslutning,type_of_grid,Type of grid connection,DK,Energistyrelsen
+Værk Idrift,start_up_date,Date of operation start,DK,Energinet.dk
+kW,electrical_capacity,Installed electrical capacity in kW,DK,Energinet.dk
+Postnr,postcode,Zip Code of location of plant,DK,Energinet.dk
+Netområde Navn,dso,Name of distribution system operator,DK,Energinet.dk
+Communes,municipality,,FR,gouv.fr
+Code officiel géographique,municipality_code,Geographic ode of the municipality,FR,gouv.fr
+Nom de la commune,municipality_name,Name of municipality,FR,gouv.fr
+Nombre d'installations,number_of_installations,Number of installed solar systems,FR,gouv.fr
+Puissance installée (MW),electrical_capacity,Installed electrical capacity in MW,FR,gouv.fr
+Biomasse,biomass,energy source biomass,FR,gouv.fr
+Eolien,wind,energy source wind,FR,gouv.fr
+Géothermie,geothermal,energy source geothermal,FR,gouv.fr
+Hydraulique,hydro,energy source hydro,FR,gouv.fr
+Solaire photovoltaïque,solar,energy source solar,FR,gouv.fr
