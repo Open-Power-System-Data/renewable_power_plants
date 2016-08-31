@@ -66,6 +66,6 @@ Postnr,postcode,Postcode or ZIP-code,DK,Energinet.dk
 Netområde Navn,dso,Name of distribution system operator,DK,Energinet.dk
 Communes,municipality,,FR,gouv.fr
 Code officiel géographique,municipality_code,French municipality code (INSEE),FR,gouv.fr
-Code INSEE,municipality_code,French municipality code (INSEE),FR,gouv.fr
+insee_com,municipality_code,French municipality code (INSEE),FR,gouv.fr
 Nombre d'installations,number_of_installations,Number of installed solar systems,FR,gouv.fr
 Puissance installée (MW),electrical_capacity_MW,Installed electrical capacity in MW,FR,gouv.fr

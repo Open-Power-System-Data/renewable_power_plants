@@ -29,3 +29,19 @@ Géothermie,geothermal,geothermal,FR,gouv.fr
 Hydraulique,hydro,hydro,FR,gouv.fr
 Solaire photovoltaïque,solar,solar,FR,gouv.fr
 s,<3,,FR,gouv.fr
+agricultural biogas power-stations,biomass_gas,biomass,PL,Urzad Regulacji Energetyki
+"biomass power-stations fired forest, agricultural, garden waste",biomass_solid,biomass,PL,Urzad Regulacji Energetyki
+biomass power-stations fired wood-derivatives and pulp-paper industry production waste,biomass_solid,biomass,PL,Urzad Regulacji Energetyki
+biomass power-stations mixed biomass-fired,biomass_mixed,biomass,PL,Urzad Regulacji Energetyki
+co-fired technology (fossil fuel and biogas),biomass_gas_and_fossil,biomass,PL,Urzad Regulacji Energetyki
+co-fired technology (fossil fuel and biomass),biomass_solid_and_fossil,biomass,PL,Urzad Regulacji Energetyki
+dump biogas power-stations,gas_landfill,gas,PL,Urzad Regulacji Energetyki
+hydro-electric power-station capacity over 10 MW,hydro_over_10MW,hydro,PL,Urzad Regulacji Energetyki
+"hydro-electric power-station capacity up to 0,3 MW",hydro_up_to_300kW,hydro,PL,Urzad Regulacji Energetyki
+hydro-electric power-station capacity up to 1 MW,hydro_up_to_1MW,hydro,PL,Urzad Regulacji Energetyki
+hydro-electric power-station capacity up to 10 MW,hydro_up_to_10MW,hydro,PL,Urzad Regulacji Energetyki
+hydro-electric power-station capacity up to 5 MW,hydro_up_to_5MW,hydro,PL,Urzad Regulacji Energetyki
+mixed biogas power-stations,biomass_gas,biomass,PL,Urzad Regulacji Energetyki
+onshore wind power-station,wind_onshore,wind,PL,Urzad Regulacji Energetyki
+photovoltaic power-stations,solar_photovoltaic,solar,PL,Urzad Regulacji Energetyki
+sewage treatment plant biogas power-stations,gas_sewage,gas,PL,Urzad Regulacji Energetyki
