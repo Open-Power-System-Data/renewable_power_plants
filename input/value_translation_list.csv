@@ -23,3 +23,9 @@ NS,07 (NS),,DE,BNetzA
 HAV,wind_offshore,wind,DK,Energistyrelsen
 LAND,wind_onshore,wind,DK,Energistyrelsen
 Land,wind_onshore,wind,DK,Energistyrelsen
+Biomasse,biomass,biomass,FR,gouv.fr
+Eolien,wind,wind,FR,gouv.fr
+Géothermie,geothermal,geothermal,FR,gouv.fr
+Hydraulique,hydro,hydro,FR,gouv.fr
+Solaire photovoltaïque,solar,solar,FR,gouv.fr
+s,<3,,FR,gouv.fr
