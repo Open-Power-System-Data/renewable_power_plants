@@ -15,6 +15,7 @@ Inbetriebnahme,commissioning_date,,DE,50Hertz;Amprion;TenneT;TransnetBW
 Außerbetriebnahme,decommissioning_date,,DE,50Hertz;Amprion;TenneT;TransnetBW
 Netzzugang,grid_commissioning_date,,DE,50Hertz;Amprion;TenneT;TransnetBW
 Netzabgang,grid_decommissioning_date,,DE,50Hertz;Amprion;TenneT;TransnetBW
+Meldegrund,notification_reason,Reason for data entry in the BnetzA list,DE,BNetzA
 Anlagennummer,bnetza_id,Power plant identification number by BnetzA (Germany),DE,BNetzA
 1.8 EEG-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,DE,BNetzA
 4.1 Energieträger,energy_source,Type of energy source / generation,DE,BNetzA
@@ -69,3 +70,10 @@ Code officiel géographique,municipality_code,French municipality code (INSEE),F
 insee_com,municipality_code,French municipality code (INSEE),FR,gouv.fr
 Nombre d'installations,number_of_installations,Number of installed solar systems,FR,gouv.fr
 Puissance installée (MW),electrical_capacity_MW,Installed electrical capacity in MW,FR,gouv.fr
+technology,energy_source,,Europe,OPSD
+capacity,electrical_capacity,,Europe,OPSD
+source,data_source,,Europe,OPSD
+Country / Area,country,,Europe,IRENA
+Sub Technology,energy_source_subtype,,Europe,IRENA
+Year,year,,Europe,IRENA
+Value,electrical_capacity_MW,,Europe,IRENA

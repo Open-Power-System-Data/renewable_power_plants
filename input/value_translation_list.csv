@@ -45,3 +45,26 @@ mixed biogas power-stations,biomass_gas,biomass,PL,Urzad Regulacji Energetyki
 onshore wind power-station,wind_onshore,wind,PL,Urzad Regulacji Energetyki
 photovoltaic power-stations,solar_photovoltaic,solar,PL,Urzad Regulacji Energetyki
 sewage treatment plant biogas power-stations,gas_sewage,gas,PL,Urzad Regulacji Energetyki
+Biogas,biomass_gas,biomass,Europe,IRENA
+Concentrated Solar Power,solar_concentrated,solar,Europe,IRENA
+Geothermal Energy,geothermal,geothermal,Europe,IRENA
+Large Hydropower,hydro_large,hydro,Europe,IRENA
+Liquid Biofuels,biomass_liquid,biomass,Europe,IRENA
+Marine,marine,marine,Europe,IRENA
+Medium Hydropower,hydro_medium,hydro,Europe,IRENA
+Offshore Wind,wind_offshore,wind,Europe,IRENA
+Onshore Wind,wind_onshore,wind,Europe,IRENA
+Pumped storage and mixed plants,hydro_pump,hydro,Europe,IRENA
+Small Hydropower,hydro_small,hydro,Europe,IRENA
+Solar Photovoltaic,solar_photovoltaic,solar,Europe,IRENA
+Solid Biomass,biomass_solid,biomass,Europe,IRENA
+Denmark,DK,,Europe,IRENA
+France,FR,,Europe,IRENA
+Germany,DE,,Europe,IRENA
+Poland,PL,,Europe,IRENA
+Bioenergy and other renewale fuels,biomass,,Europe,OPSD
+Solar,solar,,Europe,OPSD
+Wind,wind,,Europe,OPSD
+Geothermal,geothermal,,Europe,OPSD
+Differently categorized hydro,hydro,,Europe,OPSD
+"Tide, wave, and ocean",marine,,Europe,OPSD
