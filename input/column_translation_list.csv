@@ -71,7 +71,7 @@ insee_com,municipality_code,French municipality code (INSEE),FR,gouv.fr
 Nombre d'installations,number_of_installations,Number of installed solar systems,FR,gouv.fr
 Puissance installée (MW),electrical_capacity_MW,Installed electrical capacity in MW,FR,gouv.fr
 technology,energy_source,,Europe,OPSD
-capacity,electrical_capacity,,Europe,OPSD
+capacity,electrical_capacity_MW,,Europe,OPSD
 source,data_source,,Europe,OPSD
 Country / Area,country,,Europe,IRENA
 Sub Technology,energy_source_subtype,,Europe,IRENA
