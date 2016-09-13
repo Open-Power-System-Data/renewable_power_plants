@@ -13,8 +13,8 @@ Regelbarkeit,controllability,Indicates whether remote controllability is impleme
 Energieträger,energy_source,Type of energy source / generation,DE,50Hertz,Amprion,TenneT,TransnetBW
 Inbetriebnahme,commissioning_date,,DE,50Hertz,Amprion,TenneT,TransnetBW
 Außerbetriebnahme,decommissioning_date,,DE,50Hertz,Amprion,TenneT,TransnetBW
-Netzzugang,grid_commissioning_date,,DE,50Hertz,Amprion,TenneT,TransnetBW
-Netzabgang,grid_decommissioning_date,,DE,50Hertz,Amprion,TenneT,TransnetBW
+Netzzugang,grid_commissioning_date,Date the power plant changed from the dso,DE,50Hertz,Amprion,TenneT,TransnetBW
+Netzabgang,grid_decommissioning_date,Date the power plant changed to the dso,DE,50Hertz,Amprion,TenneT,TransnetBW
 Meldegrund,notification_reason,Reason for data entry in the BnetzA list,DE,BNetzA,,,
 Anlagennummer,bnetza_id,Power plant identification number by BnetzA (Germany),DE,BNetzA,,,
 1.8 EEG-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,DE,BNetzA,,,
@@ -34,6 +34,7 @@ UTM-North,utm_north,Coordinate in Universal Transverse Mercator (north),DE,BNetz
 4.14 Spannungsebene,voltage_level,Grid connection/voltage level,DE,BNetzA,,,
 4.16 Name des Netzbetreibers,dso,Name of distribution system operator,DE,BNetzA,,,
 6.2 Thermische Leistung [kW],thermal_capacity_kW,Installed thermal capacity in kW,DE,BNetzA,,,
+Meldungsdatum,notification_date,Date of data entry in the BnetzA list,DE,BNetzA_PV,,,
 "Anlage 
 Straße oder Flurstück *)",address,Street name and house number or name of land parcel,DE,BNetzA_PV,,,
 "Anlage 
