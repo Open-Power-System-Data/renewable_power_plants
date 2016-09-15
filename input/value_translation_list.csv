@@ -1,13 +1,13 @@
 original_name,opsd_name,energy_source,country,data_source
-Wind Land,Onshore,Wind,DE,BNetzA /
+Wind Land,Onshore,Wind,DE,BNetzA
 Wind See,Offshore,Wind,DE,BNetzA
 Klärgas,Sewage and landfill gas,Bioenergy and renewable waste,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Grubengas,Other fossil fuels,Other fossil fuels,DE,BnetzA/ Amprion
-Freifläche PV,Photovoltaics ground,Solar,DE,BnetzA
+Freifläche PV,Photovoltaics ground,Solar,DE,BNetzA
 Deponiegas,Sewage and landfill gas,Bioenergy and renewable waste,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Biomasse,Biomass and biogas,Bioenergy and renewable waste,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Wasserkraft,Run-of-river,Hydro,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
-Geothermie,Geothermal,Geothermal,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Geothermie,Geothermal,Geothermal,DE,BnetzA / TenneT / 50Hertz / Amprion
 Windenergie Offshore,Offshore,Wind,DE,50Hertz / TenneT
 Solar,Photovoltaics,Solar,DE,TransnetBW / TenneT / 50Hertz / Amprion
 Windenergie,Onshore,Wind,DE,TenneT / 50Hertz / Amprion
