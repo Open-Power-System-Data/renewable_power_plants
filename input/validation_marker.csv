@@ -1,4 +1,4 @@
-Validation marker,Short explanation,Explanation
+Validation marker,Short explanation,Long explanation
 R_1,data_source = BnetzA and commissioning_date < 2016-12-31,This powerplant is probably also represented by an entry from the TSO data and should therefore be filtered out.
 R_2,notification_reason other than „Inbetriebnahme“ (commissioning),This powerplant is probably also represented by an entry from the TSO data and should therefore be filtered out.
 R_3,commissioning_date not specified,
