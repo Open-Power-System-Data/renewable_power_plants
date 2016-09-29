@@ -12,13 +12,13 @@ Windenergie Offshore,Offshore,Wind,DE,50Hertz / TenneT
 Solar,Photovoltaics,Solar,DE,TransnetBW / TenneT / 50Hertz / Amprion
 Windenergie,Onshore,Wind,DE,TenneT / 50Hertz / Amprion
 Windenergie an Land,Onshore,Wind,DE,TransnetBW
-HS,03 (HS),,DE,BNetzA
-HS/MS,04 (HS/MS),,DE,BNetzA
-HöS,01 (HöS),,DE,BNetzA
-HöS/HS,02 (HöS/HS),,DE,BNetzA
-MS,05 (MS),,DE,BNetzA
-MS/NS,06 (MS/NS),,DE,BNetzA
-NS,07 (NS),,DE,BNetzA
+HS,high voltage,,DE,BNetzA
+HS/MS,high voltage / medium voltage,,DE,BNetzA
+HöS,extra high voltage,,DE,BNetzA
+HöS/HS,high voltage / extra high voltage,,DE,BNetzA
+MS,medium voltage,,DE,BNetzA
+MS/NS,medium voltage / low voltage,,DE,BNetzA
+NS,low voltage,,DE,BNetzA
 HAV,Offshore,Wind,DK,Energistyrelsen
 LAND,Onshore,Wind,DK,Energistyrelsen
 Land,Onshore,Wind,DK,Energistyrelsen
