@@ -19,6 +19,9 @@ HöS/HS,high voltage / extra high voltage,,DE,BNetzA
 MS,medium voltage,,DE,BNetzA
 MS/NS,medium voltage / low voltage,,DE,BNetzA
 NS,low voltage,,DE,BNetzA
+TransnetBW GmbH,TransnetBW,,DE,TransnetBW
+TenneT TSO GmbH,TenneT,,DE,TenneT
+Amprion GmbH,Amprion,,DE,Amprion
 HAV,Offshore,Wind,DK,Energistyrelsen
 LAND,Onshore,Wind,DK,Energistyrelsen
 Land,Onshore,Wind,DK,Energistyrelsen
