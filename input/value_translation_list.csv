@@ -1,11 +1,11 @@
-original_name,opsd_name,energy_source,country,data_source
+original_name,opsd_name,energy_source_level_2,country,data_source
 Wind Land,Onshore,Wind,DE,BNetzA
 Wind See,Offshore,Wind,DE,BNetzA
-Klärgas,Sewage and landfill gas,Bioenergy and renewable waste,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Klärgas,Sewage and landfill gas,Bioenergy,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Grubengas,Other fossil fuels,Other fossil fuels,DE,BnetzA/ Amprion
 Freifläche PV,Photovoltaics ground,Solar,DE,BNetzA
-Deponiegas,Sewage and landfill gas,Bioenergy and renewable waste,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
-Biomasse,Biomass and biogas,Bioenergy and renewable waste,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Deponiegas,Sewage and landfill gas,Bioenergy,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Biomasse,Biomass and biogas,Bioenergy,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Wasserkraft,Run-of-river,Hydro,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Geothermie,Geothermal,Geothermal,DE,BnetzA / TenneT / 50Hertz / Amprion
 Windenergie Offshore,Offshore,Wind,DE,50Hertz / TenneT
@@ -25,34 +25,34 @@ Amprion GmbH,Amprion,,DE,Amprion
 HAV,Offshore,Wind,DK,Energistyrelsen
 LAND,Onshore,Wind,DK,Energistyrelsen
 Land,Onshore,Wind,DK,Energistyrelsen
-Biomasse,Biomass and biogas,Bioenergy and renewable waste,FR,gouv.fr
+Biomasse,Biomass and biogas,Bioenergy,FR,gouv.fr
 Eolien,Wind,Wind,FR,gouv.fr
 Géothermie,Geothermal,Geothermal,FR,gouv.fr
 Hydraulique,Hydro,Hydro,FR,gouv.fr
 Solaire photovoltaïque,Photovoltaics,Solar,FR,gouv.fr
 s,<3,,FR,gouv.fr
-agricultural biogas power-stations,Biomass and biogas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
-"biomass power-stations fired forest, agricultural, garden waste",Biomass and biogas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
-biomass power-stations fired wood-derivatives and pulp-paper industry production waste,Biomass and biogas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
-biomass power-stations mixed biomass-fired,Biomass and biogas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
-co-fired technology (fossil fuel and biogas),Biomass and biogas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
-co-fired technology (fossil fuel and biomass),Biomass and biogas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
-dump biogas power-stations,Sewage and landfill gas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
+agricultural biogas power-stations,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
+"biomass power-stations fired forest, agricultural, garden waste",Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
+biomass power-stations fired wood-derivatives and pulp-paper industry production waste,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
+biomass power-stations mixed biomass-fired,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
+co-fired technology (fossil fuel and biogas),Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
+co-fired technology (fossil fuel and biomass),Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
+dump biogas power-stations,Sewage and landfill gas,Bioenergy,PL,Urzad Regulacji Energetyki
 hydro-electric power-station capacity over 10 MW,Hydro,Hydro,PL,Urzad Regulacji Energetyki
 "hydro-electric power-station capacity up to 0,3 MW",Hydro,Hydro,PL,Urzad Regulacji Energetyki
 hydro-electric power-station capacity up to 1 MW,Hydro,Hydro,PL,Urzad Regulacji Energetyki
 hydro-electric power-station capacity up to 10 MW,Hydro,Hydro,PL,Urzad Regulacji Energetyki
 hydro-electric power-station capacity up to 5 MW,Hydro,Hydro,PL,Urzad Regulacji Energetyki
-mixed biogas power-stations,Biomass and biogas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
+mixed biogas power-stations,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
 onshore wind power-station,Onshore,Wind,PL,Urzad Regulacji Energetyki
 photovoltaic power-stations,Photovoltaics,Solar,PL,Urzad Regulacji Energetyki
-sewage treatment plant biogas power-stations,Sewage and landfill gas,Bioenergy and renewable waste,PL,Urzad Regulacji Energetyki
+sewage treatment plant biogas power-stations,Sewage and landfill gas,Bioenergy,PL,Urzad Regulacji Energetyki
 pumped-storage power station or flow hydro-electric power station with pump part,Hydro,Hydro,PL,Urzad Regulacji Energetyki
-Biogas,Biomass and biogas,Bioenergy and renewable waste,Europe,IRENA
+Biogas,Biomass and biogas,Bioenergy,Europe,IRENA
 Concentrated Solar Power,Concentrated solar power,Solar,Europe,IRENA
 Geothermal Energy,Geothermal,Geothermal,Europe,IRENA
 Large Hydropower,Hydro,Hydro,Europe,IRENA
-Liquid Biofuels,Biomass and biogas,Bioenergy and renewable waste,Europe,IRENA
+Liquid Biofuels,Biomass and biogas,Bioenergy,Europe,IRENA
 Marine,Marine,Marine,Europe,IRENA
 Medium Hydropower,Hydro,Hydro,Europe,IRENA
 Offshore Wind,Offshore,Wind,Europe,IRENA
@@ -60,12 +60,12 @@ Onshore Wind,Onshore,Wind,Europe,IRENA
 Pumped storage and mixed plants,Hydro,Hydro,Europe,IRENA
 Small Hydropower,Hydro,Hydro,Europe,IRENA
 Solar Photovoltaic,Photovoltaics,Solar,Europe,IRENA
-Solid Biomass,Biomass and biogas,Bioenergy and renewable waste,Europe,IRENA
+Solid Biomass,Biomass and biogas,Bioenergy,Europe,IRENA
 Denmark,DK,,Europe,IRENA
 France,FR,,Europe,IRENA
 Germany,DE,,Europe,IRENA
 Poland,PL,,Europe,IRENA
-Bioenergy and other renewale fuels,Bioenergy and renewable waste,,Europe,OPSD
+Bioenergy and other renewale fuels,Bioenergy and renewable waste,Bioenergy,Europe,OPSD
 Solar,Solar,,Europe,OPSD
 Wind,Wind,,Europe,OPSD
 Geothermal,Geothermal,,Europe,OPSD

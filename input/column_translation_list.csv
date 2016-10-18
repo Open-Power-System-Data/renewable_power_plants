@@ -10,7 +10,7 @@ Installierte Leistung [kW],electrical_capacity_kW,Installed electrical capacity 
 Einspeisespannungsebene,voltage_level,Grid connection/voltage level,DE,50Hertz / Amprion / TenneT / TransnetBW
 Leistungsmessung,power_measurement,Indicates whether power measurement is implemented,DE,50Hertz / Amprion / TenneT / TransnetBW
 Regelbarkeit,controllability,Indicates whether remote controllability is implemented,DE,50Hertz / Amprion / TenneT / TransnetBW
-Energieträger,energy_source,Type of energy source / generation,DE,50Hertz / Amprion / TenneT / TransnetBW
+Energieträger,energy_source_level_2,Type of energy source / generation,DE,50Hertz / Amprion / TenneT / TransnetBW
 Inbetriebnahme,commissioning_date,,DE,50Hertz / Amprion / TenneT / TransnetBW
 Außerbetriebnahme,decommissioning_date,,DE,50Hertz / Amprion / TenneT / TransnetBW
 Netzzugang,grid_commissioning_date,Date the power plant changed from the dso,DE,50Hertz / Amprion / TenneT / TransnetBW
@@ -18,7 +18,7 @@ Netzabgang,grid_decommissioning_date,Date the power plant changed to the dso,DE,
 Meldegrund,notification_reason,Reason for data entry in the BnetzA list,DE,BNetzA
 Anlagennummer,bnetza_id,Power plant identification number by BnetzA (Germany),DE,BNetzA
 1.8 EEG-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,DE,BNetzA
-4.1 Energieträger,energy_source,Type of energy source / generation,DE,BNetzA
+4.1 Energieträger,energy_source_level_2,Type of energy source / generation,DE,BNetzA
 4.2 Installierte Leistung [kW],electrical_capacity_kW,Installed electrical capacity in kW,DE,BNetzA
 4.3 Tatsächliche Inbetrieb-nahme,commissioning_date,,DE,BNetzA
 4.5 Stilllegungs-datum,decommissioning_date,,DE,BNetzA
@@ -55,7 +55,7 @@ Fabrikat,manufacturer,Company that has built the turbine,DK,Energistyrelsen
 Model,model,Wind turbine model,DK,Energistyrelsen
 Kommune-nr.,municipality_code,Danish municipality code,DK,Energistyrelsen
 Kommune,municipality,Name of city or village or municipality,DK,Energistyrelsen
-Type af placering,energy_source_subtype,Type of location: on- or offshore,DK,Energistyrelsen
+Type af placering,technology,Type of location: on- or offshore,DK,Energistyrelsen
 Ejerlav,address,Street name or name of land parcel,DK,Energistyrelsen
 Matrikel-nummer,address_number,House number or number of land parcel,DK,Energistyrelsen
 "X (øst) koordinat 
@@ -71,10 +71,10 @@ Code officiel géographique,municipality_code,French municipality code (INSEE),F
 insee_com,municipality_code,French municipality code (INSEE),FR,gouv.fr
 Nombre d'installations,number_of_installations,Number of installed solar systems,FR,gouv.fr
 Puissance installée (MW),electrical_capacity,Installed electrical capacity in MW,FR,gouv.fr
-technology,energy_source,,Europe,OPSD
+technology,energy_source_level_2,,Europe,OPSD
 capacity,electrical_capacity,,Europe,OPSD
 source,data_source,,Europe,OPSD
 Country / Area,country,,Europe,IRENA
-Sub Technology,energy_source_subtype,,Europe,IRENA
+Sub Technology,technology,,Europe,IRENA
 Year,year,,Europe,IRENA
 Value,electrical_capacity,,Europe,IRENA
