@@ -1,11 +1,18 @@
 name: renewable_power_plants
+
+channels:
+  - conda-forge
+  - anaconda
+
 dependencies:
-- bokeh=0.12.2=py35_0
-- jupyter=1.0.0=py35_3
-- numpy=1.11.1=py35_0
-- pandas=0.18.1=np111py35_0
-- pyyaml=3.12=py35_0
-- requests=2.11.1=py35_0
-- xlsxwriter=0.9.3=py35_0
-- pip:
-  - utm==0.4.1
+  - python=3.5
+  - bokeh=0.12.2
+  - notebook  # jupyter notebook
+  - numpy=1.11.1
+  - pandas=0.18.1
+  - pyyaml=3.12
+  - requests
+  - xlsxwriter
+  - pip:
+    - utm==0.4.1
+
