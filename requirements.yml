@@ -12,6 +12,8 @@ dependencies:
   - pandas=0.18.1
   - pyyaml=3.12
   - requests
+  - sqlalchemy
+  - xlrd
   - xlsxwriter
   - pip:
     - utm==0.4.1
