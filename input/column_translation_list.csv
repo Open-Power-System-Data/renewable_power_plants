@@ -1,20 +1,43 @@
 original_name,opsd_name,description,country,data_source
 ÜNB,tso,Name of transmission system operator,DE,50Hertz / Amprion / TenneT / TransnetBW
+REGELZONE,tso,Name of transmission system operator,DE,50Hertz / Amprion / TenneT / TransnetBW
+Regelzonenbezeichnung,tso,Name of transmission system operator,DE,50Hertz / Amprion / TenneT / TransnetBW
 Netzbetreiber Name,dso,Name of distribution system operator,DE,50Hertz / Amprion / TenneT / TransnetBW
+NETZBETREIBER_NAME,dso,Name of distribution system operator,DE,50Hertz / Amprion / TenneT / TransnetBW
 Netzbetreiber Betriebsnummer,dso_id,Company number of dso,DE,50Hertz / Amprion / TenneT / TransnetBW
+NETZBETREIBER_BETRIEBSNUMMER,dso_id,Company number of dso,DE,50Hertz / Amprion / TenneT / TransnetBW
 ÜNB-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,DE,50Hertz / Amprion / TenneT / TransnetBW
-Bundesland,federal_state,Federal state – administrative region NUTS1-level,DE,54Hertz / Amprion / TenneT
-Bundelsand,federal_state,Federal state – administrative region NUTS1-level,DE,TransnetBW
+ANLAGENSCHLUESSEL,eeg_id,German EEG renumeration ID number,DE,50Hertz / Amprion / TenneT / TransnetBW
+ÜNB-Anlagennummer,eeg_id,German EEG renumeration ID number,DE,50Hertz / Amprion / TenneT / TransnetBW
+Bundesland,federal_state,Federal state – administrative region NUTS1-level,DE,50Hertz / Amprion / TenneT / TransnetBW
+Bundelsand,federal_state,Federal state – administrative region NUTS1-level,DE,50Hertz / Amprion / TenneT / TransnetBW
+BUNDESLAND,federal_state,Federal state – administrative region NUTS1-level,DE,50Hertz / Amprion / TenneT / TransnetBW
 PLZ,postcode,Postcode or ZIP-code,DE,50Hertz / Amprion / TenneT / TransnetBW
 Installierte Leistung [kW],electrical_capacity_kW,Installed electrical capacity in kW,DE,50Hertz / Amprion / TenneT / TransnetBW
+INST_LEISTUNG_KW,electrical_capacity_kW,Installed electrical capacity in kW,DE,50Hertz / Amprion / TenneT / TransnetBW
+installierte Leistung,electrical_capacity_kW,Installed electrical capacity in kW,DE,50Hertz / Amprion / TenneT / TransnetBW
 Einspeisespannungsebene,voltage_level,Grid connection/voltage level,DE,50Hertz / Amprion / TenneT / TransnetBW
+EINSPEISESPANNUNGSEBENE,voltage_level,Grid connection/voltage level,DE,50Hertz / Amprion / TenneT / TransnetBW
 Leistungsmessung,power_measurement,Indicates whether power measurement is implemented,DE,50Hertz / Amprion / TenneT / TransnetBW
+LEISTUNGSGEMESSENE_ANLAGE,power_measurement,Indicates whether power measurement is implemented,DE,50Hertz / Amprion / TenneT / TransnetBW
+Leistungsgemessene Anlage?,power_measurement,Indicates whether power measurement is implemented,DE,50Hertz / Amprion / TenneT / TransnetBW
 Regelbarkeit,controllability,Indicates whether remote controllability is implemented,DE,50Hertz / Amprion / TenneT / TransnetBW
+REGELBARKEIT,controllability,Indicates whether remote controllability is implemented,DE,50Hertz / Amprion / TenneT / TransnetBW
 Energieträger,energy_source_level_2,Type of energy source / generation,DE,50Hertz / Amprion / TenneT / TransnetBW
+Energietr�ger,energy_source_level_2,Type of energy source / generation,DE,50Hertz / Amprion / TenneT / TransnetBW
+BEZEICHNUNG,energy_source_level_2,Type of energy source / generation,DE,50Hertz / Amprion / TenneT / TransnetBW
 Inbetriebnahme,commissioning_date,,DE,50Hertz / Amprion / TenneT / TransnetBW
+Zeitpunkt der Inbetriebnahme,commissioning_date,,DE,50Hertz / Amprion / TenneT / TransnetBW
+ZEITPUNKT_INBETRIEBNAHME,commissioning_date,,DE,50Hertz / Amprion / TenneT / TransnetBW
 Außerbetriebnahme,decommissioning_date,,DE,50Hertz / Amprion / TenneT / TransnetBW
+Zeitpunkt der Außerbetriebnahme,decommissioning_date,,DE,50Hertz / Amprion / TenneT / TransnetBW
+ZEITPUNKT_AUSSERBETRIEB,decommissioning_date,,DE,50Hertz / Amprion / TenneT / TransnetBW
 Netzzugang,grid_commissioning_date,Date the power plant changed from the dso,DE,50Hertz / Amprion / TenneT / TransnetBW
+Zeitpunkt des Netzzuganges,grid_commissioning_date,Date the power plant changed from the dso,DE,50Hertz / Amprion / TenneT / TransnetBW
+ZEITPUNKT_NETZZUGANG,grid_commissioning_date,Date the power plant changed from the dso,DE,50Hertz / Amprion / TenneT / TransnetBW
 Netzabgang,grid_decommissioning_date,Date the power plant changed to the dso,DE,50Hertz / Amprion / TenneT / TransnetBW
+Zeitpunkt des Netzabganges,grid_decommissioning_date,Date the power plant changed to the dso,DE,50Hertz / Amprion / TenneT / TransnetBW
+ZEITPUNKT_NETZABGANG,grid_decommissioning_date,Date the power plant changed to the dso,DE,50Hertz / Amprion / TenneT / TransnetBW
 Meldegrund,notification_reason,Reason for data entry in the BnetzA list,DE,BNetzA
 Anlagennummer,bnetza_id,Power plant identification number by BnetzA (Germany),DE,BNetzA
 1.8 EEG-Anlagenschlüssel,eeg_id,German EEG renumeration ID number,DE,BNetzA
