@@ -16,9 +16,9 @@ HS,high voltage,,DE,BNetzA
 HS/MS,high voltage / medium voltage,,DE,BNetzA
 HöS,extra high voltage,,DE,BNetzA
 HöS/HS,high voltage / extra high voltage,,DE,BNetzA
-MS,medium voltage,,DE,BNetzA
-MS/NS,medium voltage / low voltage,,DE,BNetzA
-NS,low voltage,,DE,BNetzA
+MS,Medium voltage,,DE,BNetzA
+MS/NS,Medium voltage / low voltage,,DE,BNetzA
+NS,Low voltage,,DE,BNetzA
 TransnetBW GmbH,TransnetBW,,DE,TransnetBW
 TenneT TSO GmbH,TenneT,,DE,TenneT
 Amprion GmbH,Amprion,,DE,Amprion
@@ -71,3 +71,23 @@ Wind,Wind,,Europe,OPSD
 Geothermal,Geothermal,,Europe,OPSD
 Differently categorized hydro,Hydro,,Europe,OPSD
 "Tide, wave, and ocean",Marine,,Europe,OPSD
+Biomasse,Biomass,Bioenergy,CH,BFE
+Wind,Wind,Wind,CH,BFE
+Photovoltaik,Photovoltaics,Solar,CH,BFE
+Wasserkraft,Hydro,Hydro,CH,BFE
+Abwasserkraftwerk,Waste water plant,,CH,BFE
+Schlammverbrennungsanlage,Biomass and biogas,Bioenergy,CH,BFE
+Kehrrichtverbrennungsanlage,Biomass and biogas,Bioenergy,CH,BFE
+Integrierte Anlage,Integrated unit,,CH,BFE
+Angebaute Anlage,Connected unit,,CH,BFE
+Durchlaufkraftwerk,Run-of-river,,CH,BFE
+Freistehende Anlage,Stand alone unit,,CH,BFE
+Dotierwasserkraftwerk,other Hydro,,CH,BFE
+Klärgasanlage,Biomass and biogas,Bioenergy,CH,BFE
+übrige Biomasse - übrige WKK-Anlage,Biomass and biogas,Bioenergy,CH,BFE
+übrige Biomasse - Dampfprozess,Biomass and biogas,Bioenergy,CH,BFE
+Ausleitkraftwerk,Diversion plant,Hydro,CH,BFE
+Unbekannt,Unknown,,CH,BFE
+natürliche Person,Natural person,,CH,BFE
+juristische Person,Legal entity,,CH,BFE
+Trinkwasserkraftwerk,Drinking water plant,Hydro,CH,BFE

@@ -94,10 +94,29 @@ Code officiel géographique,municipality_code,French municipality code (INSEE),F
 insee_com,municipality_code,French municipality code (INSEE),FR,gouv.fr
 Nombre d'installations,number_of_installations,Number of installed solar systems,FR,gouv.fr
 Puissance installée (MW),electrical_capacity,Installed electrical capacity in MW,FR,gouv.fr
-technology,energy_source_level_2,,Europe,OPSD
-capacity,electrical_capacity,,Europe,OPSD
+technology,energy_source_level_2,Type of energy source / generation,Europe,OPSD
+capacity,electrical_capacity,Installed electrical capacity in MW,Europe,OPSD
 source,data_source,,Europe,OPSD
 Country / Area,country,,Europe,IRENA
 Sub Technology,technology,,Europe,IRENA
 Year,year,,Europe,IRENA
 Value,electrical_capacity,,Europe,IRENA
+Anlage_Energieträger,energy_source_level_2,Type of energy source / generation,CH,BFE
+Anlagentyp,technology,Type of used technology,CH,BFE
+Leistung [kW],electrical_capacity,Installed electrical capacity in MW,CH,BFE
+Anlage_Inbetriebnahme,commissioning_date,,CH,BFE
+Anlage_PLZ,municipality_code,,CH,BFE
+Anlage_Ort,municipality,,CH,BFE
+Anlage_Projekt-Bezeichnung,project_name,name of the project/asset or company,CH,BFE
+Produktion [kWh]**,production,production in kWh,CH,BFE
+"Vergütung
+ 2016
+ [CHF]",tariff,tariff in CHF for 2016,CH,BFE
+Anmeldedatum,notification_date,date of data entriy at BFE,CH,BFE
+Anlage_Vertragsende,cantract_period_end,end of the contract period,CH,BFE
+Anlage_Strasse,street,name of the street,CH,BFE
+Anlage_Kanton,canton,name of the cantones/ member states of the Swiss conferderation,CH,BFE
+Produzent_Firma,company,name of the company,CH,BFE
+Produzent_Anrede,title,titel of owner,CH,BFE
+Produzent_Name,surname,family name of owner,CH,BFE
+Produzent_Vorname,first_name,given name of owner,CH,BFE
