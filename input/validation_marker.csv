@@ -1,8 +1,0 @@
-Validation marker,Short explanation,Long explanation
-R_1,data_source = BnetzA and commissioning_date < 2016-12-31,This powerplant is probably also represented by an entry from the TSO data and should therefore be filtered out.
-R_2,notification_reason other than „Inbetriebnahme“ (commissioning),This powerplant is probably also represented by an entry from the TSO data and should therefore be filtered out.
-R_3,commissioning_date not specified,
-R_4,electrical_capacity not specified,
-R_5,decommissioned from the grid,This powerplant is probably commissioned again to the grid of another grid operator and therefore this doubled entry should be filtered out.
-R_6,decommissioned,This powerplant is completely decommissioned.
-R_7,not connected to the European grid,This powerplant is located in regions belonging to France but not located in Europe (e.g. Guadeloupe).

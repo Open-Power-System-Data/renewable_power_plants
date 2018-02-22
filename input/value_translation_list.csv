@@ -10,15 +10,18 @@ Wasserkraft,Run-of-river,Hydro,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Ampri
 Geothermie,Geothermal,Geothermal,DE,BnetzA / TenneT / 50Hertz / Amprion
 Windenergie Offshore,Offshore,Wind,DE,50Hertz / TenneT
 Solar,Photovoltaics,Solar,DE,TransnetBW / TenneT / 50Hertz / Amprion
+Speicher,Storage,Storage,DE,BNetzA
 Windenergie,Onshore,Wind,DE,TenneT / 50Hertz / Amprion
 Windenergie an Land,Onshore,Wind,DE,TransnetBW
+NS,low voltage,,DE,BNetzA
+MS/NS,low voltage / medium voltage,,DE,BNetzA
+MS,medium voltage,,DE,BNetzA
+HS/MS,medium voltage / high voltage,,DE,BNetzA
 HS,high voltage,,DE,BNetzA
-HS/MS,high voltage / medium voltage,,DE,BNetzA
 HöS,extra high voltage,,DE,BNetzA
 HöS/HS,high voltage / extra high voltage,,DE,BNetzA
-MS,Medium voltage,,DE,BNetzA
-MS/NS,Medium voltage / low voltage,,DE,BNetzA
-NS,Low voltage,,DE,BNetzA
+Hös/HS,high voltage / extra high voltage,,DE,BNetzA
+50hertz Transmission GmbH,50Hertz,,DE,50Hertz
 TransnetBW GmbH,TransnetBW,,DE,TransnetBW
 TenneT TSO GmbH,TenneT,,DE,TenneT
 Amprion GmbH,Amprion,,DE,Amprion
@@ -91,3 +94,23 @@ Unbekannt,Unknown,,CH,BFE
 natürliche Person,Natural person,,CH,BFE
 juristische Person,Legal entity,,CH,BFE
 Trinkwasserkraftwerk,Drinking water plant,Hydro,CH,BFE
+BW,Baden-Württemberg,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+BY,Bayern,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+BE,Berlin,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+BB,Brandenburg,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+HB,Bremen,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+HH,Hamburg,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+HE,Hessen,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+MV,Mecklenburg-Vorpommern,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+NI,Niedersachsen,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+NW,Nordrhein-Westfalen,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+RP,Rheinland-Pfalz,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+SL,Saarland,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+SN,Sachsen,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+ST,Sachsen-Anhalt,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+SH,Schleswig-Holstein,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+TH,Thüringen,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+AWZ,German exclusive economic zone (off-shore),,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+nw,Nordrhein-Westfalen,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Rp,Rheinland-Pfalz,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Ausschließliche Wirtschaftszone (Wind See),German exclusive economic zone (off-shore),,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
