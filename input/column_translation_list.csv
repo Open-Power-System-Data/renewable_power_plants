@@ -125,3 +125,24 @@ Produzent_Firma,company,name of the company,CH,BFE
 Produzent_Anrede,title,titel of owner,CH,BFE
 Produzent_Name,surname,family name of owner,CH,BFE
 Produzent_Vorname,first_name,given name of owner,CH,BFE
+Ref ID,uk_beis_id,,UK,BEIS
+Operator (or Applicant),operator,,UK,BEIS
+Site Name,site_name,,UK,BEIS
+Installed Capacity (MWelec),electrical_capacity,,UK,BEIS
+CHP Enabled,chp,,UK,BEIS
+RO Banding (ROC/MWh),support_robranding,,UK,BEIS
+FiT Tariff (p/kWh),support_fit,,UK,BEIS
+CfD Capacity (MW),support_cfd,,UK,BEIS
+Turbine Capacity (MW),capacity_individual_turbine,,UK,BEIS
+No. of Turbines,number_of_turbines,,UK,BEIS
+Mounting Type for Solar,solar_mounting_type,,UK,BEIS
+Development Status (short),status,,UK,BEIS
+Address,address,,UK,BEIS
+County,municipality,,UK,BEIS
+Region,region,,UK,BEIS
+Country,country,,UK,BEIS
+Post Code,postcode,,UK,BEIS
+Operational,commissioning_date,,UK,BEIS
+Technology Type,energy_source_level_3,,UK,BEIS
+
+
