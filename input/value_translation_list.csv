@@ -114,3 +114,20 @@ AWZ,German exclusive economic zone (off-shore),,DE,BNetzA / TransnetBW / TenneT 
 nw,Nordrhein-Westfalen,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Rp,Rheinland-Pfalz,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Ausschließliche Wirtschaftszone (Wind See),German exclusive economic zone (off-shore),,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Biomass (co-firing),Biomass and Biogas,Bioenergy,UK,BEIS
+EfW Incineration,Other bioenergy and renewable waste,Bioenergy,UK,BEIS
+Biomass (dedicated),Biomass and Biogas,Bioenergy,UK,BEIS
+Advanced Conversion Technologies,Biomass and Bioenergy,Bioenergy,UK,BEIS
+Anaerobic Digestion,Biomass and Biogas,Bioenergy,UK,BEIS
+Large Hydro,,Hydro,UK,BEIS
+Small Hydro,,Hydro,UK,BEIS
+Landfill Gas,Sewafe and landfill Gas,Bioenergy,UK,BEIS
+Solar Photovoltaics,,Solar,UK,BEIS
+Sewage Sludge Digestion,Sewage and landgill gas,Bioenergy,UK,BEIS
+Tidal Barrage and Tidal Stream,,Marine,UK,BEIS
+Shoreline Wave,,Marine,UK,BEIS
+Wind Offshore,,Wind,UK,BEIS
+Wind Onshore,,Wind,UK,BEIS
+Hot Dry Rocks (HDR),,Geothermal,UK,BEIS
+Flywheels,,Wind,UK,BEIS
+Pumped Storage Hydroelectricity,,Hydro,UK,BEIS
