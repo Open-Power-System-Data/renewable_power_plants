@@ -20,6 +20,7 @@ ORT,municipality,Street name or name of land parcel,DE,50Hertz / Amprion / Tenne
 Ort / Gemarkung,municipality,Street name or name of land parcel,DE,50Hertz / Amprion / TenneT / TransnetBW
 STRASSE_FLURSTUECK,address,Name of city or village or municipality,DE,50Hertz / Amprion / TenneT / TransnetBW
 Straße / Flurstück,address,Name of city or village or municipality,DE,50Hertz / Amprion / TenneT / TransnetBW
+Gemeindeschlüssel,municipality_code,German municipality code,DE,50Hertz / Amprion / TenneT / TransnetBW
 Installierte Leistung [kW],electrical_capacity_kW,Installed electrical capacity in kW,DE,50Hertz / Amprion / TenneT / TransnetBW
 INST_LEISTUNG_KW,electrical_capacity_kW,Installed electrical capacity in kW,DE,50Hertz / Amprion / TenneT / TransnetBW
 installierte Leistung,electrical_capacity_kW,Installed electrical capacity in kW,DE,50Hertz / Amprion / TenneT / TransnetBW
