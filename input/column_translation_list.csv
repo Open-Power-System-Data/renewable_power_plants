@@ -114,11 +114,12 @@ Leistung [kW],electrical_capacity,Installed electrical capacity in MW,CH,BFE
 Anlage_Inbetriebnahme,commissioning_date,,CH,BFE
 Anlage_PLZ,municipality_code,,CH,BFE
 Anlage_Ort,municipality,,CH,BFE
-Anlage_Projekt-Bezeichnung,project_name,name of the project/asset or company,CH,BFE
+Anlage_Projekt-Bezeichnung,legal_entity_type,The owner's legal-entity type,CH,BFE
 Produktion [kWh]**,production,production in kWh,CH,BFE
 Vergütung 2016 [CHF],tariff,tariff in CHF for 2016,CH,BFE
+Vergütung 2017 [CHF],tariff,tariff in CHF for 2017,CH,BFE
 Anmeldedatum,notification_date,date of data entriy at BFE,CH,BFE
-Anlage_Vertragsende,cantract_period_end,end of the contract period,CH,BFE
+Anlage_Vertragsende,contract_period_end,end of the contract period,CH,BFE
 Anlage_Strasse,street,name of the street,CH,BFE
 Anlage_Kanton,canton,name of the cantones/ member states of the Swiss conferderation,CH,BFE
 Produzent_Firma,company,name of the company,CH,BFE

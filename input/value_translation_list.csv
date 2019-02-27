@@ -92,7 +92,7 @@ Klärgasanlage,Biomass and biogas,Bioenergy,CH,BFE
 Ausleitkraftwerk,Diversion plant,Hydro,CH,BFE
 Unbekannt,Unknown,,CH,BFE
 natürliche Person,Natural person,,CH,BFE
-juristische Person,Legal entity,,CH,BFE
+juristische Person,Juridical person,,CH,BFE
 Trinkwasserkraftwerk,Drinking water plant,Hydro,CH,BFE
 BW,Baden-Württemberg,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 BY,Bayern,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
@@ -117,7 +117,7 @@ Ausschließliche Wirtschaftszone (Wind See),German exclusive economic zone (off-
 Biomass (co-firing),Biomass and Biogas,Bioenergy,UK,BEIS
 EfW Incineration,Other bioenergy and renewable waste,Bioenergy,UK,BEIS
 Biomass (dedicated),Biomass and Biogas,Bioenergy,UK,BEIS
-Advanced Conversion Technologies,Biomass and Bioenergy,Bioenergy,UK,BEIS
+Advanced Conversion Technologies,Biomass and Biogas,Bioenergy,UK,BEIS
 Anaerobic Digestion,Biomass and Biogas,Bioenergy,UK,BEIS
 Large Hydro,,Hydro,UK,BEIS
 Small Hydro,,Hydro,UK,BEIS
