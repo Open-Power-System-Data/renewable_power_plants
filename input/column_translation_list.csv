@@ -115,7 +115,7 @@ Leistung [kW],electrical_capacity,Installed electrical capacity in MW,CH,BFE
 Anlage_Inbetriebnahme,commissioning_date,,CH,BFE
 Anlage_PLZ,municipality_code,,CH,BFE
 Anlage_Ort,municipality,,CH,BFE
-Anlage_Projekt-Bezeichnung,legal_entity_type,The owner's legal-entity type,CH,BFE
+Anlage_Projekt-Bezeichnung,project_name,name of the project,CH,BFE
 Produktion [kWh]**,production,production in kWh,CH,BFE
 Vergütung 2016 [CHF],tariff,tariff in CHF for 2016,CH,BFE
 Vergütung 2017 [CHF],tariff,tariff in CHF for 2017,CH,BFE
