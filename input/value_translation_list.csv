@@ -78,22 +78,24 @@ Biomasse,Biomass,Bioenergy,CH,BFE
 Wind,Wind,Wind,CH,BFE
 Photovoltaik,Photovoltaics,Solar,CH,BFE
 Wasserkraft,Hydro,Hydro,CH,BFE
-Abwasserkraftwerk,Waste water plant,,CH,BFE
-Schlammverbrennungsanlage,Biomass and biogas,Bioenergy,CH,BFE
-Kehrrichtverbrennungsanlage,Biomass and biogas,Bioenergy,CH,BFE
-Integrierte Anlage,Integrated unit,,CH,BFE
-Angebaute Anlage,Connected unit,,CH,BFE
-Durchlaufkraftwerk,Run-of-river,,CH,BFE
-Freistehende Anlage,Stand alone unit,,CH,BFE
-Dotierwasserkraftwerk,other Hydro,,CH,BFE
-Klärgasanlage,Biomass and biogas,Bioenergy,CH,BFE
+Abwasserkraftwerk,Other or unspecified technology,Hydro,CH,BFE
+Schlammverbrennungsanlage,Other bioenergy and renewable waste,Bioenergy,CH,BFE
+Kehrrichtverbrennungsanlage,Other bioenergy and renewable waste,Bioenergy,CH,BFE
+Integrierte Anlage,,Solar,CH,BFE
+Angebaute Anlage,,Solar,CH,BFE
+Durchlaufkraftwerk,,Hydro,CH,BFE
+Freistehende Anlage,,Solar,CH,BFE
+Dotierwasserkraftwerk,,Hydro,CH,BFE
+Klärgasanlage,Sewage and landfill gas,Bioenergy,CH,BFE
 übrige Biomasse - übrige WKK-Anlage,Biomass and biogas,Bioenergy,CH,BFE
 übrige Biomasse - Dampfprozess,Biomass and biogas,Bioenergy,CH,BFE
-Ausleitkraftwerk,Diversion plant,Hydro,CH,BFE
-Unbekannt,Unknown,,CH,BFE
+Ausleitkraftwerk,,Hydro,CH,BFE
+Unbekannt,,,CH,BFE
 natürliche Person,Natural person,,CH,BFE
-juristische Person,Legal entity,,CH,BFE
-Trinkwasserkraftwerk,Drinking water plant,Hydro,CH,BFE
+juristische Person,Juridical person,,CH,BFE
+übrige Biomasse - WKK-Anlage,Biomass and biogas,,CH,BFE
+Trinkwasserkraftwerk,,Hydro,CH,BFE
+WKK-Prozess,Biomass and biogas,Bioenergy,CH,BFE
 BW,Baden-Württemberg,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 BY,Bayern,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 BE,Berlin,,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
@@ -117,11 +119,11 @@ Ausschließliche Wirtschaftszone (Wind See),German exclusive economic zone (off-
 Biomass (co-firing),Biomass and Biogas,Bioenergy,UK,BEIS
 EfW Incineration,Other bioenergy and renewable waste,Bioenergy,UK,BEIS
 Biomass (dedicated),Biomass and Biogas,Bioenergy,UK,BEIS
-Advanced Conversion Technologies,Biomass and Bioenergy,Bioenergy,UK,BEIS
+Advanced Conversion Technologies,Biomass and Biogas,Bioenergy,UK,BEIS
 Anaerobic Digestion,Biomass and Biogas,Bioenergy,UK,BEIS
 Large Hydro,,Hydro,UK,BEIS
 Small Hydro,,Hydro,UK,BEIS
-Landfill Gas,Sewafe and landfill Gas,Bioenergy,UK,BEIS
+Landfill Gas,Sewage and landfill gas,Bioenergy,UK,BEIS
 Solar Photovoltaics,,Solar,UK,BEIS
 Sewage Sludge Digestion,Sewage and landgill gas,Bioenergy,UK,BEIS
 Tidal Barrage and Tidal Stream,,Marine,UK,BEIS
