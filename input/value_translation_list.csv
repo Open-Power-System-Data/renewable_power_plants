@@ -7,6 +7,10 @@ Freifläche PV,Photovoltaics ground,Solar,DE,BNetzA
 Deponiegas,Sewage and landfill gas,Bioenergy,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Biomasse,Biomass and biogas,Bioenergy,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
 Wasserkraft,Run-of-river,Hydro,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Wasser,Run-of-river,Hydro,DE,BNetzA / TransnetBW / TenneT / 50Hertz / Amprion
+Wind an Land,Onshore,Wind,DE,TransnetBW / TenneT / 50Hertz / Amprion
+Wind auf See,Offshore,Wind,DE,50Hertz/TenneT
+Windenergie auf See,Offshore,Wind,DE,50Hertz/TenneT
 Geothermie,Geothermal,Geothermal,DE,BnetzA / TenneT / 50Hertz / Amprion
 Windenergie Offshore,Offshore,Wind,DE,50Hertz / TenneT
 Solar,Photovoltaics,Solar,DE,TransnetBW / TenneT / 50Hertz / Amprion
@@ -125,7 +129,7 @@ Large Hydro,,Hydro,UK,BEIS
 Small Hydro,,Hydro,UK,BEIS
 Landfill Gas,Sewage and landfill gas,Bioenergy,UK,BEIS
 Solar Photovoltaics,,Solar,UK,BEIS
-Sewage Sludge Digestion,Sewage and landgill gas,Bioenergy,UK,BEIS
+Sewage Sludge Digestion,Sewage and landfill gas,Bioenergy,UK,BEIS
 Tidal Barrage and Tidal Stream,,Marine,UK,BEIS
 Shoreline Wave,,Marine,UK,BEIS
 Wind Offshore,,Wind,UK,BEIS
