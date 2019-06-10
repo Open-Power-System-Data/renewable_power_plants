@@ -11,7 +11,7 @@ Energinet,DK,https://data.open-power-system-data.org/renewable_power_plants/2018
 gouv.fr,FR,http://www.statistiques.developpement-durable.gouv.fr/sites/default/files/2019-01/donnees-locales-2017-loi2000-secretise.xls,donnees-locales-2017-loi2000-secretise.xls,data,yes
 Urzad Regulacji Energetyki,PL,https://data.open-power-system-data.org/renewable_power_plants/2018-03-08/original_data/simple.rtf,simple.rtf,data,no
 BFE,CH,https://www.bfe.admin.ch/bfe/de/home/foerderung/erneuerbare-energien/einspeiseverguetung/_jcr_content/par/tabs/items/tab/tabpar/externalcontent.external.exturl.xlsx/aHR0cHM6Ly9wdWJkYi5iZmUuYWRtaW4uY2gvZGUvcHVibGljYX/Rpb24vZG93bmxvYWQvOTMxMC54bHN4.xlsx,9310.xlsx,data,yes
-BEIS,UK,https://www.gov.uk/government/publications/renewable-energy-planning-database-monthly-extract,Renewable_Energy_Planning_Database__REPD__December_2018.csv,data,yes
+BEIS,UK,https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/795492/renewable-energy-public-database-q1-2019.csv,renewable-energy-public-database-q1-2019.csv,data,yes
 Geonames,DK,http://download.geonames.org/export/zip/DK.zip,DK.zip,geo,yes
 Opendatasoft,FR,http://public.opendatasoft.com/explore/dataset/code-postal-code-insee-2015/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true,code-postal-code-insee-2015.csv,geo,yes
 Geonames,CH,http://download.geonames.org/export/zip/CH.zip,CH.zip,geo,yes
