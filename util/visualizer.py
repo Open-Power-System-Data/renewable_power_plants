@@ -6,11 +6,7 @@ import shapely
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
-#import matplotlib.pyplot as plt
 import cartopy
-#import cartopy.io.shapereader as shpreader
-#import cartopy.crs as ccrs
-#import pandas as pd
 
 def visualize_points(latitudes, longitudes, country, categories=None, eps=0.03):
 	# Remove the locations not in Europe
@@ -72,67 +68,43 @@ def visualize_points(latitudes, longitudes, country, categories=None, eps=0.03):
 
 
 def visualize_countries(countries):
-    """ Adapted from https://matthewkudija.com/blog/2018/05/25/country-maps/
-    """
-    #projection = ccrs.Robinson()
-    print(countries)
-    title = "Countries currently covered by the OPSD renewable power plants package"
+	title = "Countries currently covered by the OPSD renewable power plants package:\n" + ", ".join(countries)
 
-    #ax = plt.axes(projection=projection)
-    #ax.add_feature(cartopy.feature.OCEAN, facecolor='white')
-    #ax.outline_patch.set_edgecolor("0.5")
+	figure(num=None, figsize=(8, 8), dpi=1000, facecolor='white')
+	ax = plt.axes(projection=ccrs.PlateCarree()) 
+	ax.add_feature(cartopy.feature.OCEAN, facecolor='#0C8FCE') 
+	ax.coastlines(resolution="10m", color="#FFFFFF")
 
-    figure(num=None, figsize=(8, 8), dpi=1000, facecolor='white', edgecolor='k')
-    ax = plt.axes(projection=ccrs.Orthographic())
-    # Get the shape file for visualizing countries
-    shp_filename = shapereader.natural_earth('10m', 'cultural', 'admin_0_countries')
-    df_geo = geopandas.read_file(shp_filename)
-    df_europe = df_geo.loc[df_geo["CONTINENT"] == "Europe", :]
+	# Get the shape file for visualizing countries
+	shp_filename = shapereader.natural_earth("10m", 'cultural', 'admin_0_countries')
+	df_geo = geopandas.read_file(shp_filename)
 
-    for index, row in df_europe.iterrows():
-        polygon = row['geometry']
-        # Make sure that polygon is technically multi-part
-        # (see https://github.com/SciTools/cartopy/issues/948)
-        if type(polygon) == shapely.geometry.polygon.Polygon:
-            polygon=[polygon]
-        # Make the figure
-        if row["NAME"] in countries:
-            facecolor = "#000099"#"#71a2d6"
-        else:
-            facecolor = "#DDDDDD"
-        ax.add_geometries(polygon, crs=ccrs.PlateCarree(), facecolor=facecolor, edgecolor='#FFFFFF', zorder=1)
-        ax.set_extent([-31, 69, 34, 81], crs=ccrs.PlateCarree())
-        ax.coastlines(resolution='10m', color='grey')
+	wider_european_region = shapely.geometry.Polygon([(-31, 34), (-31, 81), (69, 81), (69, 34)])
+	df_selected = df_geo[df_geo["geometry"].intersects(wider_european_region) & (df_geo["NAME"].isin(countries))]
+	df_other = df_geo[df_geo["geometry"].intersects(wider_european_region) & (~df_geo["NAME"].isin(countries))]
 
-    plt.title(title, fontsize=8)
+	for index, row in df_selected.iterrows():
+		country_polygon = row['geometry']
+		# Mark selected countries
+		facecolor = "#173F5F"
+		edgecolor = "#FFFFFF"
+		# Make sure that polygon is technically multi-part
+		# (see https://github.com/SciTools/cartopy/issues/948)
+		if type(country_polygon) == shapely.geometry.polygon.Polygon:
+			country_polygon = [country_polygon]
+		
+		ax.add_geometries(country_polygon, crs=ccrs.PlateCarree(), facecolor=facecolor, edgecolor=edgecolor, zorder=2)
 
-    plt.show()
+	for index, row in df_other.iterrows():
+		country_polygon = row["geometry"]
+		facecolor = "#EAF7F3"
+		edgecolor = "#FFFFFF"
+		if type(country_polygon) == shapely.geometry.polygon.Polygon:
+			country_polygon = [country_polygon]
+		ax.add_geometries(country_polygon, crs=ccrs.PlateCarree(), facecolor=facecolor, edgecolor=edgecolor, zorder=1)
+	
+	ax.set_extent([-31, 69, 34, 81], crs=ccrs.PlateCarree())
 
+	plt.title(title, fontsize=8)
 
-def mainam():
-    df = pd.read_csv('countries.csv', index_col='ISO_CODE')
-
-    projection = ccrs.Robinson()
-    title = 'Four Regions With The Same Population'
-    colors = ['#f4b042', '#92D050','#71a2d6','#b282ac','#DDDDDD']
-    #colors = ['#orange' ,'#green','#blue ','#purple','#grey  ']
-    annotation = 'Four Regions With The Same Population: https://mapchart.net/showcase.html'
-    plot_countries(df,projection,colors,annotation,title,edgecolor='white')
-
-    projection = ccrs.Orthographic(-30,40)
-    colors = ['#71a2d6','#DDDDDD']
-    annotation = 'NATO Member Countries: https://en.wikipedia.org/wiki/Member_states_of_NATO'
-    title = 'NATO Members'
-    plot_countries(df,projection,colors,annotation,title,edgecolor='grey')
-
-    projection = ccrs.Orthographic(10,50)
-    colors = ['#000099','#DDDDDD']
-    annotation = 'EU Member Countries: https://en.wikipedia.org/wiki/Member_state_of_the_European_Union'
-    title = 'EU Members'
-    plot_countries(df,projection,colors,annotation,title,edgecolor='grey')
-
-    print('Done.\n')
-
-
-if __name__ == '__main__':
-    main()
+	plt.show()
