@@ -1,0 +1,13 @@
+short_name,full_name,data_description,long_description
+DE,Germany,"Individual power plants, all renewable energy plants supported by the German Renewable Energy Law (EEG).","In Germany, the four TSOs (50Hertz, Amprion, Tennet, TransnetBW) publish individual plant-level data on renewable power plants on their joint platform Netztransparenz.de. Since they are only updated once per year (usually in August) for the past year, their data is often a bit outdated. We therefore complement their data with data from BNetzA, which has more recent data.
+
+Since August 2014 the BNetzA is responsible to publish the renewable power plants register. The legal framework for the register is  specified in the EEG 2014 [(German)](http://www.gesetze-im-internet.de/eeg_2014/) [(English)](http://www.res-legal.eu/search-by-country/germany/single/s/res-e/t/promotion/aid/feed-in-tariff-eeg-feed-in-tariff/lastp/135/). All power plants are listed in a new format: two separate MS-Excel and CSV files for roof-mounted PV power plants ['PV-Datenmeldungen'](https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/ErneuerbareEnergien/ZahlenDatenInformationen/EEG_Registerdaten/EEG_Registerdaten_node.html) and all other renewable power plants [' Anlagenregister'](https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/ErneuerbareEnergien/ZahlenDatenInformationen/EEG_Registerdaten/EEG_Registerdaten_node.html).
+
+From the beginning of 2019, BNetzA has switched to the Marktstammdatenregister (MaStR, central register for installation data). This is, however, not used yet for OPSD data. We will change to using the MaStR most likely for the 2020 version of the OPSD data package.
+"
+FR,France,"Summed capacity and number of installations per energy source per municipality (Commune).",""
+DK,Denmark,"Wind and phovoltaic power plants with a high level of detail.",""
+CH,Switzerland,"All renewable-energy power plants supported by the feed-in-tariff KEV (Kostendeckende Einspeisevergütung).",""
+PL,Poland,"Summed capacity and number of installations per energy source per municipality (Powiat).",""
+UK,United Kingdom,"Renewable-energy power plants in the United Kingdom.",""
+
