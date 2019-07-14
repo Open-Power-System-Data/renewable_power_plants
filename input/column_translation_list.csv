@@ -146,5 +146,28 @@ Country,country,,UK,BEIS
 Post Code,postcode,,UK,BEIS
 Operational,commissioning_date,,UK,BEIS
 Technology Type,energy_source_level_3,,UK,BEIS
+Verk-ID,wind_turbine_id,the id of the wind turbine,SE,Vindbrukskollen
+Områdes-ID,se_vindbrukskollen_id,the id of the wind farm,SE,Vindbrukskollen
+Projekteringsområde,farm_name,the name of the wind farm,SE,Vindbrukskollen
+Verksamhetsutövare,developer,developer,SE,Vindbrukskollen
+Status,permission_status,the status of permission,SE,Vindbrukskollen
+Handlingstyp,permit_process_type,,SE,Vindbrukskollen
+Inlämningsdatum,permission_request_date,the date when the permit application was filed,SE,Vindbrukskollen
+Placering,technology,the type of the wind farm,SE,Vindbrukskollen
+N-Koordinat,sweref99tm_north,the north coordinate in sweref99tm,SE,Vindbrukskollen
+E-Koordinat,sweref99tm_east,the east coordinate in sveref99tm,SE,Vindbrukskollen
+Totalhöjd (m),total_height,total height,SE,Vindbrukskollen
+Navhöjd (m),hub_height,hub height,SE,Vindbrukskollen
+Rotordiameter (m),rotor_diameter,the rotor diameter,SE,Vindbrukskollen
+Maxeffekt (MW),electrical_capacity,installed capacity,SE,Vindbrukskollen
+Beräknad årsproduktion (GWh),estimated_AEP,estimated AEP,SE,Vindbrukskollen
+Uppmätt årsproduktion (GWh),measured_AEP,measured AEP,SE,Vindbrukskollen
+Kommun,municipality,municipality,SE,Vindbrukskollen
+Län,county,county,SE,Vindbrukskollen
+Elområde,bidding_zone,bidding zone,SE,Vindbrukskollen
+Uppfört,commissioning_date,erection date,SE,Vindbrukskollen
+Fabrikat,manufacturer,manufacturer,SE,Vindbrukskollen
+Modell,model,model,SE,Vindbrukskollen
+Senast sparad,last_saved,the date of the most recent update,SE,Vindbrukskollen
 
 

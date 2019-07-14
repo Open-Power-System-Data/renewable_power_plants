@@ -156,7 +156,7 @@ class NUTSConverter(object):
 	def add_nuts_information(self, data_df, country, postcode2nuts_path,
 		lau_name_type = 'LATIN', postcode_column='postcode', municipality_column='municipality',
 		municipality_code_column='municipality_code', latitude_column = 'lat', longitude_column = 'lon',
-		how = ['latlon', 'postcode', 'municipality_code', 'municipality'], closest_approximation=False):
+		how = ['latlon', 'postcode', 'municipality_code', 'municipality'], closest_approximation=False, verbose=False):
 		self.country = country
 		
 		if 'municipality' in how or 'municipality_code' in how:
@@ -178,7 +178,8 @@ class NUTSConverter(object):
 				df = self.nuts_from_municipality_code(df, municipality_code_column=municipality_code_column)
 			elif method == 'latlon':
 				df = self.nuts_from_latlon(df, latitude_column=latitude_column, longitude_column=longitude_column, closest_approximation=closest_approximation)
-			print("After using" , method, " data, NUTS codes are unknown for", df['NUTS3'].isnull().sum(), "power stations.")
+			if verbose:
+				print("After using" , method, " data, NUTS codes are unknown for", df['NUTS3'].isnull().sum(), "power stations.")
 
 		df['nuts_3_region'] = df['NUTS3']
 		df['nuts_2_region'] = df['NUTS3'].str[:-1]
