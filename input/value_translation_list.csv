@@ -140,3 +140,8 @@ Flywheels,,Wind,UK,BEIS
 Pumped Storage Hydroelectricity,,Hydro,UK,BEIS
 Land,Onshore,Wind,SE,Vindbrukskollen
 Vatten,Offshore,Wind,SE,Vindbruksollen
+solar,,Solar,CZ,ERU
+hydro,,Hydro,CZ,ERU
+wind,,Wind,CZ,ERU
+unspecified,,Other or unspecified,CZ,ERU
+biogas and biomass,Biomass and biogas,Bioenergy,CZ,ERU

@@ -148,7 +148,7 @@ Operational,commissioning_date,,UK,BEIS
 Technology Type,energy_source_level_3,,UK,BEIS
 Verk-ID,wind_turbine_id,the id of the wind turbine,SE,Vindbrukskollen
 Områdes-ID,se_vindbrukskollen_id,the id of the wind farm,SE,Vindbrukskollen
-Projekteringsområde,farm_name,the name of the wind farm,SE,Vindbrukskollen
+Projekteringsområde,site_name,the name of the wind farm,SE,Vindbrukskollen
 Verksamhetsutövare,developer,developer,SE,Vindbrukskollen
 Status,permission_status,the status of permission,SE,Vindbrukskollen
 Handlingstyp,permit_process_type,,SE,Vindbrukskollen
@@ -169,5 +169,17 @@ Uppfört,commissioning_date,erection date,SE,Vindbrukskollen
 Fabrikat,manufacturer,manufacturer,SE,Vindbrukskollen
 Modell,model,model,SE,Vindbrukskollen
 Senast sparad,last_saved,the date of the most recent update,SE,Vindbrukskollen
+site_region,region,the region in which the plant is located,CZ,ERU
+site_postcode,postcode,the plant's postcode,CZ,ERU
+site_locality,locality,the city or village the plant is locoated in,CZ,ERU
+site_district,municipality,municipality,CZ,ERU
+holder_name,owner,the owner of the site (a company or a person),CZ,ERU
+holder_region,owner_region,the region of which the owner is a resident,CZ,ERU
+holder_address,owner_address,the address of the plant's owner,CZ,ERU
+holder_postcode,owner_postcode,the postcode of the plant's owner,CZ,ERU
+holder_locality,owner_locality,the city or a village the owner is in,CZ,ERU
+holder_district,owner_municipality,the municipality in which the owner is in,CZ,ERU
+holder_representative,owner_representative,the representative of the plant's owner,CZ,ERU
+energy_type,technology,,CZ,ERU
 
 

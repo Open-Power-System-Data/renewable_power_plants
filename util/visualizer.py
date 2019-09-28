@@ -12,9 +12,12 @@ def visualize_points(latitudes, longitudes, country, categories=None, eps=0.03):
 	# Remove the locations not in Europe
 	european_latitude_mask = np.logical_and(latitudes >= 34, latitudes <= 81)
 	european_longitude_mask= np.logical_and(longitudes >= -31, longitudes <= 69)
+	
 	european_mask = np.logical_and(european_latitude_mask, european_longitude_mask)
+	
 	latitudes = latitudes[european_mask]
 	longitudes = longitudes[european_mask]
+
 	if categories is not None:
 		categories = categories[european_mask]
 		
@@ -38,10 +41,12 @@ def visualize_points(latitudes, longitudes, country, categories=None, eps=0.03):
 	df_geo = geopandas.read_file(shp_filename)
 	
 	polygon = df_geo.loc[df_geo['ADMIN'] == country]['geometry'].values[0]
+
 	# Make sure that polygon is technically multi-part
 	# (see https://github.com/SciTools/cartopy/issues/948)
 	if type(polygon) == shapely.geometry.polygon.Polygon:
 		polygon=[polygon]
+		
 	# Make the figure
 	figure(num=None, figsize=(8, 6), dpi=100, facecolor='white', edgecolor='k')
 	ax = plt.axes(projection=ccrs.PlateCarree())

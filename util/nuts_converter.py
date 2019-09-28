@@ -39,7 +39,11 @@ class NUTSConverter(object):
 
 
 	def open_postcode2nuts(self, postcode2nuts_path):
-		return pd.read_csv(postcode2nuts_path, sep=';', quotechar="'", dtype={'CODE' : str, 'NUTS3' : str})
+		return pd.read_csv(postcode2nuts_path,
+			sep=';',
+			quotechar="'",
+			dtype={'CODE' : str, 'NUTS3' : str}
+		)
 
 	def open_lau2nuts(self, eurostat_eu_lau2nuts_path, lau_name_type='LATIN'):
 		# Prepare the dataframe for mapping municipality names and codes to NUTS-3 regions
