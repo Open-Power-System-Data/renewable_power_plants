@@ -69,12 +69,12 @@ UTM-North,utm_north,Coordinate in Universal Transverse Mercator (north),DE,BNetz
 4.16 Name des Netzbetreibers,dso,Name of distribution system operator,DE,BNetzA
 6.2 Thermische Leistung [kW],thermal_capacity_kW,Installed thermal capacity in kW,DE,BNetzA
 Meldungsdatum,notification_date,Date of data entry in the BnetzA list,DE,BNetzA_PV
-"Anlage Straße oder Flurstück",address,Street name and house number or name of land parcel,DE,BNetzA_PV
-"Anlage Straße oder Flurstück *)",address,Street name and house number or name of land parcel,DE,BNetzA_PV
-"Anlage Straße oder Flurstück",address,Street name and house number or name of land parcel,DE,BNetzA_PV
-"Anlage PLZ",postcode,Postcode or ZIP-code,DE,BNetzA_PV
-"Anlage PLZ",postcode,Postcode or ZIP-code,DE,BNetzA_PV
-"Anlage Ort oder Gemarkung",municipality,Name of city or village or municipality,DE,BNetzA_PV
+Anlage Straße oder Flurstück,address,Street name and house number or name of land parcel,DE,BNetzA_PV
+Anlage Straße oder Flurstück *),address,Street name and house number or name of land parcel,DE,BNetzA_PV
+Anlage Straße oder Flurstück,address,Street name and house number or name of land parcel,DE,BNetzA_PV
+Anlage PLZ,postcode,Postcode or ZIP-code,DE,BNetzA_PV
+Anlage PLZ,postcode,Postcode or ZIP-code,DE,BNetzA_PV
+Anlage Ort oder Gemarkung,municipality,Name of city or village or municipality,DE,BNetzA_PV
 Anlage Bundesland,federal_state,Federal state – administrative region NUTS1-level,DE,BNetzA_PV
 Inbetriebnahmedatum **),commissioning_date,,DE,BNetzA_PV
 Inbetriebnahme-datum *),commissioning_date,,DE,BNetzA_PV
@@ -102,6 +102,33 @@ Code officiel géographique,municipality_code,French municipality code (INSEE),F
 insee_com,municipality_code,French municipality code (INSEE),FR,gouv.fr
 Nombre d'installations,number_of_installations,Number of installed solar systems,FR,gouv.fr
 Puissance installée (MW),electrical_capacity,Installed electrical capacity in MW,FR,gouv.fr
+nomInstallation,site_name,The name of the facility as supplied by its producer (possibly anonymized; if the installed capacity is <36KW then the name is Agrégation des installations de moins de 36KW,FR,ODRE
+codeEICResourceObject,EIC_code,EIC (Energy Identification Code) code identifies each facility,FR,ODRE
+codeIRIS,IRIS_code,IRIS code,FR,ODRE
+codeINSEECommune,municipality_code,INSEE code of the municipality of the delivery point,FR,ODRE
+commune,municipality,municipality (commune) name,FR,ODRE
+codeEPCI,municipality_group_code,EPCI code (EPCI is a grouping of municipalities),FR,ODRE
+EPCI,municipality_group,the group of municipalities this one is a member of,FR,ODRE
+codeDepartement,departement_code,the number of the department,FR,ODRE
+departement,departement,departement name,FR,ODRE
+codeRegion,FR_region_code,INSEE code of the region,FR,ODRE
+region,FR_region,region name,FR,ODRE
+codeIRISCommuneImplantation,main_generator_IRIS_code,IRIS code of the location of the main generators,FR,ODRE
+codeINSEECommuneImplantation,main_generator_municipality,municipality where the main generator is located,FR,ODRE
+dateRaccordement,connection_date,the date the facility got connected to the grid,FR,ODRE
+dateDeraccordement,disconnection_date,the date the facility got disconnected from the grid,FR,ODRE
+dateMiseEnService,commissioning_date,,FR,ODRE
+dateDebutVersion,description_start_date,the date from which the description applies,FR,ODRE
+posteSource,source_station_code,source station reference code,FR,ODRE
+filiere,energy_source_level_2,Type of energy source / generation,FR,ODRE
+combustible,energy_source_level_3,Type of energy source / generation,FR,ODRE
+technologie,technology,technology,FR,ODRE
+puisMaxRac,electrical_capacity,Electrical capacity in KW,FR,ODRE
+Lp.,URE_id,The ordinal number of the power plant in the original dataset,PL,Urzad Regulacji Energetyki
+Województwo,region,Province in the administrative division of Poland,PL,Urzad Regulacji Energetyki
+Powiat,district,District in the administrative division of Poland,PL,Urzad Regulacji Energetyki
+Rodzaj_OZE,energy_type,Type of energy source ,PL,Urzad Regulacji Energetyki
+Moc zainstalowana [MW],electrical_capacity,installed capacity in MW,PL,Urzad Regulacji Energetyki
 technology,energy_source_level_2,Type of energy source / generation,Europe,OPSD
 capacity,electrical_capacity,Installed electrical capacity in MW,Europe,OPSD
 source,data_source,,Europe,OPSD
@@ -119,6 +146,7 @@ Anlage_Projekt-Bezeichnung,project_name,name of the project,CH,BFE
 Produktion [kWh]**,production,production in kWh,CH,BFE
 Vergütung 2016 [CHF],tariff,tariff in CHF for 2016,CH,BFE
 Vergütung 2017 [CHF],tariff,tariff in CHF for 2017,CH,BFE
+Vergütung 2018 [CHF],tariff,tariff in CHF for 2018,CH,BFE
 Anmeldedatum,notification_date,date of data entriy at BFE,CH,BFE
 Anlage_Vertragsende,contract_period_end,end of the contract period,CH,BFE
 Anlage_Strasse,street,name of the street,CH,BFE
@@ -181,5 +209,3 @@ holder_locality,owner_locality,the city or a village the owner is in,CZ,ERU
 holder_district,owner_municipality,the municipality in which the owner is in,CZ,ERU
 holder_representative,owner_representative,the representative of the plant's owner,CZ,ERU
 energy_type,technology,,CZ,ERU
-
-

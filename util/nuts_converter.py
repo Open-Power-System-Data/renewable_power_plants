@@ -97,9 +97,8 @@ class NUTSConverter(object):
 									axis=1
 			)
 
-			columns_to_drop = [column for column in df.columns if column.endswith('_y')]
-			
-			df.drop(columns_to_drop, axis='columns', inplace=True)
+		columns_to_drop = [column for column in df.columns if column.endswith('_y')]
+		df.drop(columns_to_drop, axis='columns', inplace=True)
 
 		return df
 
@@ -113,6 +112,8 @@ class NUTSConverter(object):
 		return df
 
 	def __from_municipality2nuts(self, data_df, left_column, right_column):
+		# Potential bug: If self.municipality2nuts_df[right_column] contains duplicates,
+		# some rows will be added more than once.
 		df = pd.merge(data_df, self.municipality2nuts_df,
 						left_on=left_column,
 						right_on=right_column,

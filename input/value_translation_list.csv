@@ -39,23 +39,47 @@ Géothermie,Geothermal,Geothermal,FR,gouv.fr
 Hydraulique,Hydro,Hydro,FR,gouv.fr
 Solaire photovoltaïque,Photovoltaics,Solar,FR,gouv.fr
 s,<3,,FR,gouv.fr
-agricultural biogas power-stations,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
-"biomass power-stations fired forest, agricultural, garden waste",Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
-biomass power-stations fired wood-derivatives and pulp-paper industry production waste,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
-biomass power-stations mixed biomass-fired,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
-co-fired technology (fossil fuel and biogas),Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
-co-fired technology (fossil fuel and biomass),Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
-dump biogas power-stations,Sewage and landfill gas,Bioenergy,PL,Urzad Regulacji Energetyki
-hydro-electric power-station capacity over 10 MW,Hydro,Hydro,PL,Urzad Regulacji Energetyki
-"hydro-electric power-station capacity up to 0,3 MW",Hydro,Hydro,PL,Urzad Regulacji Energetyki
-hydro-electric power-station capacity up to 1 MW,Hydro,Hydro,PL,Urzad Regulacji Energetyki
-hydro-electric power-station capacity up to 10 MW,Hydro,Hydro,PL,Urzad Regulacji Energetyki
-hydro-electric power-station capacity up to 5 MW,Hydro,Hydro,PL,Urzad Regulacji Energetyki
-mixed biogas power-stations,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
-onshore wind power-station,Onshore,Wind,PL,Urzad Regulacji Energetyki
-photovoltaic power-stations,Photovoltaics,Solar,PL,Urzad Regulacji Energetyki
-sewage treatment plant biogas power-stations,Sewage and landfill gas,Bioenergy,PL,Urzad Regulacji Energetyki
-pumped-storage power station or flow hydro-electric power station with pump part,Hydro,Hydro,PL,Urzad Regulacji Energetyki
+Solaire,Solar,Solar,FR,ODRE
+Hydraulique,Hydro,Hydro,FR,ODRE
+Eolien,Wind,Wind,FR,ODRE
+Thermique non renouvelable,Non-renewable thermal,Other or unspecified,FR,ODRE
+Bioénergies,Bioenergy,Bioenergy,FR,ODRE
+Autre,Other,Other or unspecified,FR,ODRE
+Nucléaire,Nuclear,Nuclear,FR,ODRE
+Energies Marines,Marine,Marine,FR,ODRE
+Géothermie,Geothermal,Geothermal,FR,ODRE
+Stockage non hydraulique,Non-hydraulic storage,Other or unspecified,FR,ODRE
+Gaz,Sewage and landfill gas,Bioenergy,FR,ODRE
+Déchets ménagers,Other bioenergy and renewable waste,Bioenergy,FR,ODRE
+Fioul,Oil,Oil,FR,ODRE
+Bois,Wood,Other or unspecified,FR,ODRE
+Biogaz de station d'épuration,Biomass and biogas,Bioenergy,FR,ODRE
+Charbon,Coal,Hard coal,FR,ODRE
+Photovoltaïque,Photovoltaics,Solar,FR,ODRE
+Fil de l'eau,Other or unspecified technology,Hydro,FR,ODRE
+Terrestre,Onshore,Wind,FR,ODRE
+Fission nucléaire,Nuclear fission,Nuclear,FR,ODRE
+Cogénération à vapeur,Steam turbine,Bioenergy,FR,ODRE
+Autre,Other,Other or unspecified,FR,ODRE
+Cogénération à combustion,Combustion cogeneration,,FR,ODRE
+Hydrolien fluvial,Run-of-river,Hydro,FR,ODRE
+Turbine à vapeur,Steam turbine,,FR,ODRE
+Turbine à combustion,Combustion engine,,FR,ODRE
+Eclusée,Closed,,FR,ODRE
+Pompage turbinage,Pumped storage,,FR,ODRE
+Moteur à piston,Piston motor,Bioenergy,FR,ODRE
+En mer posé,Onshore,Wind,FR,ODRE
+Hydrolienne en mer,Marine,Marine,FR,ODRE
+Thermodynamique,Thermodynamic,,FR,ODRE
+Lac,Lake,Hydro,FR,ODRE
+Cycle combiné,Combined cycle,,FR,ODRE
+En mer flottant,Onshore,Wind,FR,ODRE
+Marémotrice,Tidal,Marine,FR,ODRE
+BG,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
+BM,Biomass and biogas,Bioenergy,PL,Urzad Regulacji Energetyki
+PVA,,Solar,PL,Urzad Regulacji Energetyki
+WIL,,Wind,PL,Urzad Regulacji Energetyki
+WO,,Hydro,PL,Urzad Regulacji Energetyki
 Biogas,Biomass and biogas,Bioenergy,Europe,IRENA
 Concentrated Solar Power,Concentrated solar power,Solar,Europe,IRENA
 Geothermal Energy,Geothermal,Geothermal,Europe,IRENA
@@ -86,6 +110,7 @@ Wasserkraft,Hydro,Hydro,CH,BFE
 Abwasserkraftwerk,Other or unspecified technology,Hydro,CH,BFE
 Schlammverbrennungsanlage,Other bioenergy and renewable waste,Bioenergy,CH,BFE
 Kehrrichtverbrennungsanlage,Other bioenergy and renewable waste,Bioenergy,CH,BFE
+Dampfprozess,Biomass and biogas,Bioenergy,CH,BFE
 Integrierte Anlage,,Solar,CH,BFE
 Angebaute Anlage,,Solar,CH,BFE
 Durchlaufkraftwerk,,Hydro,CH,BFE

@@ -41,7 +41,7 @@ class CZ_ERU_Scraper(Scraper):
 
 
 	def scrape(self, filepath):
-		# Create a session if it's not already been done
+		# Create a session if it's not already been created
 		print('Scraping the CZ dataset. This will take some time. Please wait.')
 		if self.session is None:
 			self.session = requests.session()
