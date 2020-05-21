@@ -138,7 +138,7 @@ class Downloader(object):
 		download_directory = os.path.dirname(filepath)
 		os.makedirs(download_directory, exist_ok=True)
 
-		# check if file exists; if not, download it
+		# check if file exists; if it doesn't, download it
 		if not os.path.exists(filepath):
 			if not session:
 				#print('No session')
@@ -162,7 +162,7 @@ class Downloader(object):
 
 	def get_opsd_download_url(self, filename):
 		opsd_url = 'https://data.open-power-system-data.org/renewable_power_plants'
-		folder = 'original_data/raw'
+		folder = 'original_data'
 		opsd_download_url = "/".join([opsd_url, self.version, folder, filename])
 	
 		return opsd_download_url
