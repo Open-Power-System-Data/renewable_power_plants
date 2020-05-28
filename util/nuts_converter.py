@@ -39,7 +39,11 @@ class NUTSConverter(object):
 
 
 	def open_postcode2nuts(self, postcode2nuts_path):
-		return pd.read_csv(postcode2nuts_path, sep=';', quotechar="'", dtype={'CODE' : str, 'NUTS3' : str})
+		return pd.read_csv(postcode2nuts_path,
+			sep=';',
+			quotechar="'",
+			dtype={'CODE' : str, 'NUTS3' : str}
+		)
 
 	def open_lau2nuts(self, eurostat_eu_lau2nuts_path, lau_name_type='LATIN'):
 		# Prepare the dataframe for mapping municipality names and codes to NUTS-3 regions
@@ -93,9 +97,8 @@ class NUTSConverter(object):
 									axis=1
 			)
 
-			columns_to_drop = [column for column in df.columns if column.endswith('_y')]
-			
-			df.drop(columns_to_drop, axis='columns', inplace=True)
+		columns_to_drop = [column for column in df.columns if column.endswith('_y')]
+		df.drop(columns_to_drop, axis='columns', inplace=True)
 
 		return df
 
@@ -109,6 +112,8 @@ class NUTSConverter(object):
 		return df
 
 	def __from_municipality2nuts(self, data_df, left_column, right_column):
+		# Potential bug: If self.municipality2nuts_df[right_column] contains duplicates,
+		# some rows will be added more than once.
 		df = pd.merge(data_df, self.municipality2nuts_df,
 						left_on=left_column,
 						right_on=right_column,
@@ -156,7 +161,7 @@ class NUTSConverter(object):
 	def add_nuts_information(self, data_df, country, postcode2nuts_path,
 		lau_name_type = 'LATIN', postcode_column='postcode', municipality_column='municipality',
 		municipality_code_column='municipality_code', latitude_column = 'lat', longitude_column = 'lon',
-		how = ['latlon', 'postcode', 'municipality_code', 'municipality'], closest_approximation=False):
+		how = ['latlon', 'postcode', 'municipality_code', 'municipality'], closest_approximation=False, verbose=False):
 		self.country = country
 		
 		if 'municipality' in how or 'municipality_code' in how:
@@ -178,7 +183,8 @@ class NUTSConverter(object):
 				df = self.nuts_from_municipality_code(df, municipality_code_column=municipality_code_column)
 			elif method == 'latlon':
 				df = self.nuts_from_latlon(df, latitude_column=latitude_column, longitude_column=longitude_column, closest_approximation=closest_approximation)
-			print("After using" , method, " data, NUTS codes are unknown for", df['NUTS3'].isnull().sum(), "power stations.")
+			if verbose:
+				print("After using" , method, " data, NUTS codes are unknown for", df['NUTS3'].isnull().sum(), "power stations.")
 
 		df['nuts_3_region'] = df['NUTS3']
 		df['nuts_2_region'] = df['NUTS3'].str[:-1]

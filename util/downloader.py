@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 
 from .helper import get_beis_link
+from .scrapers.scraper_factory import ScraperFactory
 
 def download_and_cache(url, session=None, download_directory_path=None, filename=None):
 		"""
@@ -30,8 +31,8 @@ def download_and_cache(url, session=None, download_directory_path=None, filename
 		Returns the local filepath. 
 		If filename is specified, the local file will be named so.
 		"""
-		if user_agent is None:
-			user_agent = fake_useragent.UserAgent()
+
+		user_agent = fake_useragent.UserAgent()
 	
 		if filename is None:
 			path = urllib.parse.urlsplit(url).path
@@ -83,6 +84,41 @@ class Downloader(object):
 	def get_input_directory_path(self):
 		return self.input_directory_path
 
+	def derive_filepath(self, country, source_name, filename):
+		split_path = self.input_directory_path.split(os.sep)
+		download_path_parts = split_path + [country, source_name, filename]
+		download_path_parts = [part for part in download_path_parts if part is not None]
+		filepath = os.path.join(*download_path_parts)
+
+		return filepath
+
+	def scrape_and_cache(self, url, country, source_name, filename, session=None):
+		"""
+		This method instantiates the scraper for the given source and country,
+		uses is to scrape the data from the url and stores them into the file
+		of the given name.
+		Returns the local filepath.
+		"""
+
+		filepath = self.derive_filepath(country, source_name, filename)
+
+		download_directory = os.path.dirname(filepath)
+		os.makedirs(download_directory, exist_ok=True)
+
+		scraper = ScraperFactory.getScraper(country, source_name, url)
+		
+		if not os.path.exists(filepath):
+			if session is not None:
+				scraper.set_session(session)
+			print('Scraping from', url)
+			scraper.scrape(filepath)
+		else:
+			print('Using local file from', filepath)
+
+		return filepath
+
+		#return 'scrape/{}/{}/{} -> {}'.format(country, source_name, url, filepath)
+
 	def download_and_cache(self, url, session=None, filename=None, country=None, source_name=None):
 		"""
 		This method downloads a file into the folder whose name is defined by the attribute input_directory_path and 
@@ -97,15 +133,12 @@ class Downloader(object):
 			path = urllib.parse.urlsplit(url).path
 			filename = str(posixpath.basename(path))
 
-		split_path = self.input_directory_path.split(os.sep)
-		download_path_parts = split_path + [country, source_name, filename]
-		download_path_parts = [part for part in download_path_parts if part is not None]
-		filepath = os.path.join(*download_path_parts)
+		filepath = self.derive_filepath(country, source_name, filename)
 
 		download_directory = os.path.dirname(filepath)
 		os.makedirs(download_directory, exist_ok=True)
 
-		# check if file exists, if not download it
+		# check if file exists; if it doesn't, download it
 		if not os.path.exists(filepath):
 			if not session:
 				#print('No session')
@@ -124,13 +157,12 @@ class Downloader(object):
 			print("Using local file from", filepath)
 		
 		filepath = '' + filepath
-		
 	
 		return filepath
 
 	def get_opsd_download_url(self, filename):
 		opsd_url = 'https://data.open-power-system-data.org/renewable_power_plants'
-		folder = 'original_data/raw'
+		folder = 'original_data'
 		opsd_download_url = "/".join([opsd_url, self.version, folder, filename])
 	
 		return opsd_download_url
@@ -168,7 +200,7 @@ class Downloader(object):
 					data_urls.update({source : {'url' : self.get_opsd_download_url(filename), 'filename' : filename}})
 
 			active_df = source_df[source_df['active'] == 'yes']
-			urls = active_df[['source', 'url', 'filename']]
+			urls = active_df[['source', 'url', 'filename', 'download_method']]
 			urls = urls.set_index('source')
 			data_urls.update(urls.to_dict(orient='index'))
 
@@ -187,7 +219,12 @@ class Downloader(object):
 		for source_name in urls:
 			url = urls[source_name]['url']
 			filename = urls[source_name]['filename']
-			datapath = self.download_and_cache(url, country=country, source_name=source_name, filename=filename)
+			
+			if 'download_method' in urls[source_name] and urls[source_name]['download_method'] == 'scrape':
+				datapath = self.scrape_and_cache(url, country, source_name, filename)
+			else:
+				datapath = self.download_and_cache(url, country=country, source_name=source_name, filename=filename)
+			
 			local_paths[source_name] = datapath
-			#print(source_name, url, "------------------>", datapath)
+
 		return local_paths
