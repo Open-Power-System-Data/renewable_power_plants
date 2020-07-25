@@ -160,10 +160,10 @@ class Downloader(object):
 	
 		return filepath
 
-	def get_opsd_download_url(self, filename):
+	def get_opsd_download_url(self, filename, country, source):
 		opsd_url = 'https://data.open-power-system-data.org/renewable_power_plants'
 		folder = 'original_data'
-		opsd_download_url = "/".join([opsd_url, self.version, folder, filename])
+		opsd_download_url = "/".join([opsd_url, self.version, folder, country, source, filename])
 	
 		return opsd_download_url
 
@@ -197,7 +197,7 @@ class Downloader(object):
 				filenames_by_source = self.get_filenames_for_opsd(inactive_df)
 				for source in filenames_by_source:
 					filename = filenames_by_source[source]
-					data_urls.update({source : {'url' : self.get_opsd_download_url(filename), 'filename' : filename}})
+					data_urls.update({source : {'url' : self.get_opsd_download_url(filename, country, source), 'filename' : filename}})
 
 			active_df = source_df[source_df['active'] == 'yes']
 			urls = active_df[['source', 'url', 'filename', 'download_method']]
@@ -205,8 +205,12 @@ class Downloader(object):
 			data_urls.update(urls.to_dict(orient='index'))
 
 		elif self.download_from == 'opsd_server':
+			data_urls = {}
 			filenames_by_source = self.get_filenames_for_opsd(source_df)
-			data_urls = {source : {'url' : self.get_opsd_download_url(filenames_by_source[source])} for source in filenames_by_source}
+			for source in filenames_by_source:
+				filename = filenames_by_source[source]
+				data_urls.update({source : {'url' : self.get_opsd_download_url(filename, country, source), 'filename' : filename}})
+		
 		else:
 			raise ValueError('download_from must be "original_sources" or "opsd_server".')
 		
