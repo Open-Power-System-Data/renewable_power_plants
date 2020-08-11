@@ -16,7 +16,7 @@ def get_beis_link(UK_page_url):
 	return url_UK_beis
 
 
-def get_markdowns_for_sources(countries_df, sources_df):
+def get_markdowns_for_sources(countries_df, sources_df, metadata):
 	sources_df.fillna("",inplace=True)
 	country_format = "## {full_name} - {short_name}\n{data_description}"
 	source_format_with_long_description = """
@@ -44,8 +44,24 @@ def get_markdowns_for_sources(countries_df, sources_df):
 				source_text = source_format_with_long_description.format(**source_dict)
 			source_list += [source_text]
 		source_text = "\n".join(source_list)
+
+		table_text = ''
+		column_row_format = '| {} | {} | {} |\n'
+		for resource in metadata['resources']:
+			name = 'renewable_power_plants_{}'.format(country).lower()
+			if resource['name'] == name:
+				table_text = 'The columns available in the data table provided by OPSD:\n\n'
+				table_text += '| column | type | description |\n|:---|:---|:---|\n'
+				fields = resource['schema']['fields']
+				for field in fields:
+					column = field['name']
+					column_type = field['type']
+					column_description = field['description']
+					column_row = column_row_format.format(column, column_type, column_description)
+					table_text += column_row
+
 	
-		markdown_text = country_text + "\n" + source_text
+		markdown_text = country_text + '\n' + source_text + '\n\n' + table_text
 		markdown = Markdown(markdown_text)
 		markdowns += [markdown]
 	

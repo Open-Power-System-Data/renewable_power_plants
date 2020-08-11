@@ -111,8 +111,8 @@ codeEPCI,municipality_group_code,EPCI code (EPCI is a grouping of municipalities
 EPCI,municipality_group,the group of municipalities this one is a member of,FR,ODRE
 codeDepartement,departement_code,the number of the department,FR,ODRE
 departement,departement,departement name,FR,ODRE
-codeRegion,FR_region_code,INSEE code of the region,FR,ODRE
-region,FR_region,region name,FR,ODRE
+codeRegion,region_code,INSEE code of the region,FR,ODRE
+region,region,region name,FR,ODRE
 codeIRISCommuneImplantation,main_generator_IRIS_code,IRIS code of the location of the main generators,FR,ODRE
 codeINSEECommuneImplantation,main_generator_municipality,municipality where the main generator is located,FR,ODRE
 dateRaccordement,connection_date,the date the facility got connected to the grid,FR,ODRE
@@ -149,7 +149,7 @@ Vergütung 2017 [CHF],tariff,tariff in CHF for 2017,CH,BFE
 Vergütung 2018 [CHF],tariff,tariff in CHF for 2018,CH,BFE
 Anmeldedatum,notification_date,date of data entriy at BFE,CH,BFE
 Anlage_Vertragsende,contract_period_end,end of the contract period,CH,BFE
-Anlage_Strasse,street,name of the street,CH,BFE
+Anlage_Strasse,address,name of the street or the whole address,CH,BFE
 Anlage_Kanton,canton,name of the cantones/ member states of the Swiss conferderation,CH,BFE
 Produzent_Firma,company,name of the company,CH,BFE
 Produzent_Anrede,title,titel of owner,CH,BFE
