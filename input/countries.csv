@@ -5,7 +5,7 @@ Since August 2014 the BNetzA is responsible to publish the renewable power plant
 
 From the beginning of 2019, BNetzA has switched to the Marktstammdatenregister (MaStR, central register for installation data). This is, however, not used yet for OPSD data. We will change to using the MaStR most likely for the 2020 version of the OPSD data package.
 "
-FR,France,Energy sources… summarize this once done,
+FR,France,"Renewable energy sources in France (wind, solar, hydro, geothermal, bioenergy, marine).",
 DK,Denmark,Wind and phovoltaic power plants with a high level of detail.,
 CH,Switzerland,All renewable-energy power plants supported by the feed-in-tariff KEV (Kostendeckende Einspeisevergütung).,
 PL,Poland,Summed capacity and number of installations per energy source per municipality (Powiat).,
